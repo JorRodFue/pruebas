@@ -3,7 +3,7 @@
 
 global.config = require('../../robots/robots/src/config/config');
 global.config.browser.headless = !true; //true, no mostrar la pantalla
-global.config.browser.devtools = !true;
+global.config.browser.devtools = true;
 global.config.browser.args = []
 
 global.config.proxy.enabled = !true;
@@ -14,42 +14,54 @@ global.config.mongo.uri = 'mongodb://hulkusu:OzhUdFPgcLuf4XpM@bs657485-001.dbaas
 global.config.anticaptchaKey = 'a68d59058912a27711f1ea51886dfb4c';
 require('../../robots/robots/src/config/db');
 // const repository = require('../../robots/robots/src/repository/global/shein.repository');
-const repository = require('../../robots/robots/src/repository/global/vueling.repository');
+//const repository = require('../../robots/robots/src/repository/global/vueling.repository');
+const repository = require('../../robots/robots/src/repository/uk/theperfumeshop.repository')
 
 repository.findOne = () => false;
 repository.save = () => false;
 repository.update = () => false;
 // const { getInfo, oneClick } = require('../../robots/robots/src/domain/mx/shein.domain.js');
-const { getInfo, oneClick } = require('../../robots/robots/src/domain/mx/vueling.domain.js');
+//const { getInfo, oneClick } = require('../../robots/robots/src/domain/mx/vueling.domain.js');
+const { getInfo, oneClick } = require('../../robots/robots/src/domain/uk/theperfumeshop.domain.js');
+
 
 const reqID = 'testing_desig';
-// const merchant = 'SHEIN';
-const merchant = 'VUELING';
+const merchants = ['SHEIN', 'VUELING', 'PERFUMESHOP']
+let currentMerchant = 2
+const merchant = merchants[currentMerchant]
+console.log("MERCHANT", merchant)
 
-const logins =  [
-  {
+const logins =
+{
+  SHEIN: {
     login: 'tarjetasrewards@gmail.com',
     password: 'Ar01022015',
   },
 
-  {login: 'tarjetasrewards@gmail.com',
-  password: 'Yudonpay#Mola2018.',}
+  VUELING: {
+    login: 'tarjetasrewards@gmail.com',
+    password: 'Yudonpay#Mola2018.',
+  },
+
+  PERFUMESHOP:
+    { login: "rabin84807@hiwave.org", password: "M@4!it35LzNSMeZ" }
+}
 
 
-];
-const rngIndex = Math.floor(Math.random()*logins.length);
-const { login, password, data } = logins[1];
+  ;
+
+const { login, password, data } = logins[merchant];
 (async () => {
 
   try {
     console.log("ok");
-    config.browser={}
+    config.browser = {}
     console.log(config.browser)
-
+    console.log("voy a hacer un getInfo con", login, password, reqID, merchant)
     const resultInfo = await getInfo(login, password, reqID, merchant);
     // const resultInfo = await oneClick(login, password, reqID, merchant, data);
-    console.log(resultInfo);
-  }catch(err){
-    console.log(err);
+    console.log("Teneomo Get Info", resultInfo);
+  } catch (err) {
+    console.log("Error en el index.js", err);
   }
 })();
