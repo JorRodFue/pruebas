@@ -1,6 +1,5 @@
 //robots.sync
 
-
 global.config = require('../../robots/robots/src/config/config');
 global.config.browser.headless = !true; //true, no mostrar la pantalla
 global.config.browser.devtools = true;
