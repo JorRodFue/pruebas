@@ -1,5 +1,3 @@
-//sheinMX.sync
-
 
 global.config = require('../../robots/robots/src/config/config');
 global.config.browser.headless = !true; //true, no mostrar la pantalla
@@ -55,8 +53,6 @@ const logins =
   CHEDRAUI:
     { login: 'santiagoclub8@gmail.com', password: 'Olimpico88.' },
 }
-
-
   ;
 
 const { login, password, data } = logins[merchant];
