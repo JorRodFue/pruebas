@@ -1,4 +1,9 @@
 {
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
   "name": "robots",
   "version": "1.0.0",
   "description": "",
