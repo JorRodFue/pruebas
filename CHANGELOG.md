@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/JorRodFue/pruebas/compare/v1.0.0...v1.1.0) (2020-02-05)
+
+
+### Features
+
+* **changelog:** testing the new changelog ([41c32d4](https://github.com/JorRodFue/pruebas/commit/41c32d497957108945e75cacfa8c16e00a6880b1))
+
+
+### Bug Fixes
+
+* **(test):** incremental ([7d1a207](https://github.com/JorRodFue/pruebas/commit/7d1a2072d91dbf1fea52977cc99134a07836390a))
+
 ## 1.0.0 (2020-02-05)
 
 
