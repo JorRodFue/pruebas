@@ -1,5 +1,3 @@
-
-
 const addOne = number => number + 1
 const getExternalValue = () => Promise.resolve(10).catch(2)
 getExternalValue()

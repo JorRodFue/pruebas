@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "commit": "npx git-cz",
+    "release": "standard-version",
     "start": "node index.js",
     "startdev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
