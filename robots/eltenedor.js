@@ -28,6 +28,8 @@ repository.update = () => false;
 const { getInfo, oneClick } = require('../../robots/robots/src/domain/sp/eltenedor.domain');
 
 
+
+
 const reqID = "testing_desig";
 const merchants = ['SHEIN', 'VUELING', 'PERFUMESHOP', 'CHEDRAUI', 'ELTENEDOR']
 let currentMerchant = 4;
