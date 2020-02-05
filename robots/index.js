@@ -69,4 +69,5 @@ const { login, password, data } = logins[merchant];
   } catch (err) {
     console.log("Error en el index.js", err);
   }
+
 })();
