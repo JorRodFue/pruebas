@@ -19,6 +19,7 @@ require('../../robots/robots/src/config/db');
 const repository = require('../../robots/robots/src/repository/sp/eltenedor.repository');
 repository.findOne = () => false;
 repository.save = () => false;
+
 repository.update = () => false;
 // const { getInfo, oneClick } = require('../../robots/robots/src/domain/mx/shein.domain.js');
 //const { getInfo, oneClick } = require('../../robots/robots/src/domain/mx/vueling.domain.js');
