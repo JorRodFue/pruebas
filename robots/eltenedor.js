@@ -18,6 +18,7 @@ require('../../robots/robots/src/config/db');
 // const repository = require('../../robots/robots/src/repository/uk/theperfumeshop.repository')
 const repository = require('../../robots/robots/src/repository/sp/eltenedor.repository');
 repository.findOne = () => false;
+
 repository.save = () => false;
 
 repository.update = () => false;
