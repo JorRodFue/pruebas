@@ -1,0 +1,39 @@
+Pull Request a DEVELOP
+
+cepsa
+
+
+history points 1 día
+
+shein.mx , no funciona en pre
+servicio 
+
+
+
+pasar sistema 2 al sistema 3
+
+theperfumeshop los tests request 1
+
+chedraui -> aprox 3
+
+marinaud ha cerrado la pagina españa
+el tenedor reasginado captcha 3 dias 
+
+changelog Mayor Mainor Patch
+
+fix : 
+feature (cookie) : Description  BREAKING CHANGE (+1 mayor)
+chore
+style
+refactor
+
+cookies headers
+
+
+npx git-cz 
+npx standard-version --first-release
+standard-version
+
+
+bug , pegar el launch.json
+luego flecha debug
