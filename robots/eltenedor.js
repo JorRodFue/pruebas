@@ -4,7 +4,7 @@ global.config.browser.headless = !true; //true, no mostrar la pantalla
 global.config.browser.devtools = true;
 global.config.browser.args = ['--disable-web-security']
 
-global.config.proxy.enabled = true;
+global.config.proxy.enabled = !true;
 global.config.proxy.ip = 'luminatipm.yudonpay.com';
 global.config.proxy.port = 24005;
 //para UK 24003
