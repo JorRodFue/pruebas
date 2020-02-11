@@ -1,0 +1,20 @@
+estas en develop
+mergeas 
+
+PRE
+mergeas en pre develop -- local
+push pre local a origin
+
+entras en el servidor por ssh y te traes origin pull
+
+testas en api (comprobar en el ramma)
+
+
+
+PRO
+mergeas  en pro (aka master) pre -- local
+push pro local a origin
+
+
+entrar en el servidor por ssh te trase es origin pull
+script "/."
