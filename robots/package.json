@@ -1,30 +1,76 @@
 {
+  "name": "ms-robots",
+  "version": "1.0.1",
+  "description": "Robots micro service",
+  "author": "Yudonpay",
+  "main": "server.js",
+  "repository": {
+    "type": "git"
+  },
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cheerio": "1.0.0-rc.3",
+    "colors": "1.3.3",
+    "dotenv": "8.0.0",
+    "express": "4.16.4",
+    "fluent-ffmpeg": "2.1.2",
+    "jimp": "0.6.4",
+    "jsqr": "1.2.0",
+    "moment": "2.24.0",
+    "mongoose": "5.7.12",
+    "node-uuid": "1.4.8",
+    "nodemon": "^2.0.2",
+    "puppeteer": "^2.1.1",
+    "puppeteer-extra": "^3.1.9",
+    "puppeteer-extra-plugin-recaptcha": "^3.1.10",
+    "puppeteer-extra-plugin-stealth": "^2.4.9",
+    "ramda": "^0.27.0",
+    "request": "2.88.0",
+    "winston": "3.2.1"
+  },
+  "scripts": {
+    "coverage": "jest --coverage test",
+    "cm": "npx git-cz",
+    "lint": "eslint src/**",
+    "lint-fix": "eslint --fix src/**",
+    "lint-tests": "eslint test/**",
+    "release": "standard-version",
+    "start": "node server.js",
+    "test": "jest",
+    "startdev": "nodemon eltenedor.js"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**",
+      "!src/repository/**"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "acorn": "^6.1.1",
+    "commitizen": "^4.0.3",
+    "eslint": "^5.15.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.3.0",
+    "husky": "^4.2.1",
+    "i": "^0.3.6",
+    "jest": "^24.4.0",
+    "npm": "^6.13.7",
+    "standard-version": "^7.1.0",
+    "supertest": "^4.0.2"
+  },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
   },
-  "name": "robots",
-  "version": "1.2.0",
-  "description": "",
-  "main": "sheinMX.sync.js",
-  "scripts": {
-    "release": "standard-version",
-    "commit": "npx git-cz",
-    "start": "node index.js",
-    "startdev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "eslint": "^6.8.0",
-    "mongoose": "^5.8.10",
-    "nodemon": "^2.0.2",
-    "puppeteer": "^2.1.0",
-    "puppeteer-extra": "^3.1.9"
-  },
-  "devDependencies": {
-    "standard-version": "^7.1.0"
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS --no-verify"
+    }
   }
 }

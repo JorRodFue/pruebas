@@ -19,31 +19,49 @@ puppeteer.use(
 // puppeteer usage as normal
 puppeteer.launch({ headless: !false }).then(async browser => {
     const page = await browser.newPage()
-    await page.goto('https://www.eltenedor.es/')
+    await page.goto('https://www.eltenedor.es/#')
     await page.setDefaultNavigationTimeout(0);
 
-    await page.waitFor(5000)
-    await page.solveRecaptchas()
+    await page.screenshot({ path: 'preCaptcha.png', fullPage: true })
 
-    page.mainFrame().childFrames()
+    await page.waitFor(1000)
     for (const frame of page.mainFrame().childFrames()) {
         // Attempt to solve any potential reCAPTCHAs in those frames
         console.log(frame)
-
         await frame.solveRecaptchas()
-        console.log(frame)
         console.log("despues de solveRecaptchas")
-
     }
-    console.log('captcha solved')
+
+    // /const selector = '#cboxOverlay'
+    // await page.waitForSelector(selector)
+    // await page.evaluate((selector) => {
+    //     document.querySelector('#cboxOverlay').setAttribute('display', 'visibility: hidden')
+    // });
+
+    await page.waitFor(2000)
+    await page.screenshot({ path: 'postCaptcha.png', fullPage: true })
+
+
+    // page.mainFrame().childFrames()
+
     // That's it, a single line of code to solve reCAPTCHAs 🎉
 
     // // await Promise.all([
     // //     page.waitForNavigation(),
     // //     // page.click(`#recaptcha-demo-submit`)
     // ])
-    await page.waitFor(5000)
+    await page.waitFor(2000)
 
-    await page.screenshot({ path: 'response.png', fullPage: true })
+    await page.goto('https://www.eltenedor.es/#')
+    // await page.click('#header-login')
+    if (await page.$('#cboxClose') !== null) await page.click('#cboxClose')
+    await page.waitFor(2000)
+
+
+    if (await page.$("#header-login") !== null) await page.click("#header-login")
+
+    await page.waitFor(2000)
+
+    await page.screenshot({ path: 'postLoginClick.png', fullPage: true })
     // await browser.close()
 })
