@@ -17,6 +17,7 @@ lib-cov
 # Coverage directory used by tools like istanbul
 coverage
 
+7
 # nyc test coverage
 .nyc_output
 
@@ -71,3 +72,4 @@ typings/
 
 test.js
 robots/package-lock.json
+captures
