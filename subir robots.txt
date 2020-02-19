@@ -1,5 +1,17 @@
+release despues de PR
+te trase develop a local
+
+codigo de hash para el nombre de la release git rev-parse --short HEAD
+
+npm run release 
+git push --follow-tags origin [nombre de rama]
+
+
 estas en develop
 mergeas 
+
+traemos a local develop
+
 
 PRE
 mergeas en pre develop -- local
@@ -7,7 +19,9 @@ push pre local a origin
 
 entras en el servidor por ssh y te traes origin pull
 
-testas en api (comprobar en el ramma)
+
+ejecutar script pm2 start et... history
+testas en api (comprobar en el ramma) , cerciorarse que es pre ironman 
 
 
 
@@ -17,4 +31,5 @@ push pro local a origin
 
 
 entrar en el servidor por ssh te trase es origin pull
-script "/."
+script "/." actauliza robots
+

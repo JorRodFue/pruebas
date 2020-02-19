@@ -6,9 +6,10 @@ global.config.browser.args = ['--disable-web-security']
 
 global.config.proxy.enabled = true;
 global.config.proxy.ip = 'luminatipm.yudonpay.com';
-global.config.proxy.port = 24005;
+global.config.proxy.port = 24002;
 //para UK 24003
 // para SP 24002
+// para MX 24005
 global.config.proxy.residentialPort = 24010;
 global.config.mongo.uri = 'mongodb://hulkusu:OzhUdFPgcLuf4XpM@bs657485-001.dbaas.ovh.net:35190/apiusers';
 global.config.anticaptchaKey = 'a68d59058912a27711f1ea51886dfb4c';
@@ -42,7 +43,7 @@ const { login, password, data } = logins[merchant];
     config.browser = {}
     console.log(config.browser)
     console.log("voy a hacer un getInfo con", login, password, reqID, merchant)
-    const resultInfo = await getInfo(login, password, reqID, merchant, 'es');
+    const resultInfo = await getInfo(login, password, reqID, merchant, 'sp');
     // const resultInfo = await oneClick(login, password, reqID, merchant, data);
     console.log("Tenemos Get Info", resultInfo);
   } catch (err) {
