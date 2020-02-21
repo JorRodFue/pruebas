@@ -1,10 +1,11 @@
 release despues de PR
 te trase develop a local
 
-codigo de hash para el nombre de la release git rev-parse --short HEAD
+codigo de hash para usarlo el nombre de la release git rev-parse --short HEAD
 
 npm run release 
 git push --follow-tags origin [nombre de rama]
+
 
 
 estas en develop
