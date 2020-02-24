@@ -6,7 +6,7 @@ global.config.browser.args = ['--disable-web-security']
 
 global.config.proxy.enabled = true;
 global.config.proxy.ip = 'luminatipm.yudonpay.com';
-global.config.proxy.port = 24002;
+global.config.proxy.port = 24003;
 //para UK 24003
 // para SP 24002
 global.config.proxy.residentialPort = 24010;

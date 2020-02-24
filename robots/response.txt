@@ -1,0 +1,1347 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+	<meta name="description" content="En BM Supermercados somos naturales, cercanos y de confianza… ¡como nuestros productos! La constate búsqueda de la excelencia, una atención personal y nuestra decidida apuesta por productos locales y frescos son algunas de las señas de identidad por las que nos eliges.">
+	<meta name="keywords" content="BM, SUPERMERCADO, NO ES LO MISMO, ERCORECA, NETTO, ALIMENTACIÓN, FRESCOS, BEBIDAS, TIENDA, FRUTERÍA, CARNICERÍA, CHARCUTERÍA, PESCADERÍA, AHORRO, MARCA LÍDER, BARATO, CALIDAD, BAZAR, TEXTIL">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=.6">
+
+	<title>BM SUPERMERCADOS</title>
+
+	<link rel="shortcut icon" href="favicon.ico" sizes="16x16" type="image/x-icon">
+	<link rel="styleSheet" type="text/css" href="vistas/css/estiloak_orokorra.css">
+	<link rel="styleSheet" type="text/css" href="vistas/css/contenidos.css">
+		<script>var cuantos_destacados = 0</script>
+		<script src="vistas/jquery/jquery-3.4.1.js"></script>
+	<script src="vistas/jquery/bootstrap.min.js"></script>
+	<script src="vistas/jquery/elementos.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap" rel="stylesheet">
+</head>
+<body class="no_mostrar_menu">
+
+	
+ 
+<script>
+  dataLayer = [{
+    'idioma': 'es',
+    'seccion': '',
+	'subseccion': ''
+  }];
+</script>
+ 
+
+<!-- Google Tag Manager -->
+ 
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M4DRD2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M4DRD2');</script>
+
+ 
+<!-- End Google Tag Manager -->
+
+
+	
+	<div id="ayuda" class="sr-only">
+
+		<ul>
+			<li><a href="#aindice" accesskey="a">Ir al &iacute;ndice principal de contenidos</a></li>
+			<!--<li><a href="#asubindice" accesskey="b">< ?= $txt_irasubindice ?></a></li>-->
+			<li><a href="#acontenido" accesskey="e">Ir a los contenidos</a></li>
+		</ul>
+
+	</div>
+	
+	<header>
+
+		<div id="header_cont" class="header_escritorio">
+
+			<div id="header_barra_sup">
+
+				<div id="menu_desplegable">
+
+					<div class="boton_desplegable">
+					<a href="javascript:;" title="MENÚ">
+						<div class="boton_desplegable_icono">
+							<span class="icono_raya"></span>
+							<span class="icono_raya"></span>
+							<span class="icono_raya"></span>
+						</div>
+						<span class="invisible">MENÚ</span>
+					</a>
+					</div>
+
+				</div>
+
+				<nav id="menu_cabecera_izda">
+
+					<!-- MENU CABECERA IZQUIERDA - ESCRITORIO -->
+					<ul class="mostrar_escritorio">
+
+						<li id="opcion_acceso">
+							<a href="#" title="MI CUENTA" target="_self">
+							<figure>
+								<img src="vistas/images/ico_micuenta.png" alt="MI CUENTA">
+																<figcaption>MI CUENTA</figcaption>
+																							</figure>
+							</a>
+						</li>
+
+												<li>
+							<a href="contacto.htm" title="CONTACTO" target="_self">
+							<figure>
+								<img src="vistas/images/ico_contacto.png" alt="CONTACTO">
+								<figcaption>CONTACTO</figcaption>
+							</figure>
+							</a>
+						</li>
+
+												<li>
+							<a href="tarjeta-bm.htm" title="APP BM" target="_self">
+							<figure>
+								<img src="vistas/images/ico_appbm.png" alt="APP BM">
+								<figcaption>APP BM</figcaption>
+							</figure>
+							</a>
+						</li>
+
+					</ul>
+
+					<!-- MENU CABECERA IZQUIERDA - MOVIL -->
+					<ul class="mostrar_movil">
+
+												<li>
+							<a href="tarjeta-bm.htm" title="APP BM" target="_self">
+							<figure>
+								<img src="vistas/images/ico_appbm.png" alt="APP BM">
+								<figcaption>APP BM</figcaption>
+							</figure>
+							</a>
+						</li>
+
+					</ul>
+					
+				</nav>
+
+				<div id="logo_cabecera">
+
+										<a href="inicio.htm" title="BM SUPERMERCADOS">
+					<figure>
+						<img src="vistas/images/logotipo_bm.png" alt="BM SUPERMERCADOS" title="BM SUPERMERCADOS">
+						<figcaption></figcaption>
+					</figure>
+					</a>
+
+				</div>
+
+				<nav id="menu_cabecera_dcha">
+
+					<!-- MENU CABECERA DERECHA - ESCRITORIO -->
+					<ul class="mostrar_escritorio menu_cabecera_compraonline">
+
+												<li>
+							<a href="tienda-online.htm" title="COMPRA ONLINE" >
+							<figure>
+								<img src="vistas/images/ico_compraonline.png" alt="COMPRA ONLINE">
+								<figcaption></figcaption>
+							</figure>
+							</a>
+						</li>
+
+					</ul>
+
+					<!-- MENU CABECERA DERECHA - ESCRITORIO -->
+					<ul class="mostrar_escritorio menu_cabecera_redes">
+
+						<li>
+							<a href="https://www.facebook.com/BMSupermercados" title="FACEBOOK" target="new">
+							<figure>
+								<img src="vistas/images/ico_facebook.png" alt="FACEBOOK">
+								<figcaption></figcaption>
+							</figure>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://twitter.com/bmsupermercados" title="TWITTER" target="new">
+							<figure>
+								<img src="vistas/images/ico_twitter.png" alt="TWITTER">
+								<figcaption></figcaption>
+							</figure>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://www.youtube.com/user/BMSupermercados" title="YOUTUBE" target="new">
+							<figure>
+								<img src="vistas/images/ico_youtube.png" alt="YOUTUBE">
+								<figcaption></figcaption>
+							</figure>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://instagram.com/bmsupermercados/" title="INSTAGRAM" target="new">
+							<figure>
+								<img src="vistas/images/ico_instagram.png" alt="INSTAGRAM">
+								<figcaption></figcaption>
+							</figure>
+							</a>
+						</li>
+
+					</ul>
+
+					<!-- MENU CABECERA DERECHA - MOVIL -->
+					<ul class="mostrar_movil">
+
+												<li>
+							<a href="contacto.htm" title="CONTACTO" target="_self">
+							<figure>
+								<img src="vistas/images/ico_contacto.png" alt="CONTACTO">
+								<figcaption>CONTACTO</figcaption>
+							</figure>
+							</a>
+						</li>
+
+						<li id="opcion_acceso_movil">
+							<a href="#" title="MI CUENTA" target="_self">
+							<figure>
+								<img src="vistas/images/ico_micuenta.png" alt="MI CUENTA">
+								<figcaption>MI CUENTA</figcaption>
+							</figure>
+							</a>
+						</li>
+
+					</ul>
+
+				</nav>
+
+			</div>
+
+			<!-- VENTANA CONEXION TARJETA (MI CUENTA) -->
+			<div id="barra_conexion">
+
+					
+					
+				<div id="conecta_tarjeta" class="ventana_tarjeta visibilidad">
+					
+
+					<div class="boton_cerrar_ventana" title="CERRAR">
+						<span class="icono_raya"></span>
+						<span class="icono_raya"></span>
+					</div>
+
+										<!-- FORMULARIO DE CONEXIÓN -->
+					<h4 class="titu_item">Accede a tu cuenta</h4>
+
+										<form name="conecta" id="conecta" method="post" action="login.htm">
+					<fieldset>
+
+						<legend class="invisible">Inserte usuario y clave y pulse "CONECTAR":</legend>
+
+						<label for="usuario"><span class="invisible">DNI o usuario</span>
+						<input id="usuario" name="usuario" type="text" title="DNI o usuario" placeholder="DNI o usuario">
+						</label>
+
+						<label for="clave"><span class="invisible">clave</span>
+						<input id="clave" name="clave" type="password" title="clave" placeholder="······">
+						</label>
+
+						<input name="konektatu" type="hidden" id="konektatu" value="1">
+						<input name="llave_form_login" type="hidden" id="llave_form_login" value="fb2aa5225e1dd84f12e2203f2ba255e48cd3bf091e223403913ad80c9954f534">
+
+						<label class="label_button" for="conectar">
+						<button type="submit" name="conectar" id ="conectar" title=" CONECTAR ">
+							<span> CONECTAR </span>
+							<img src="vistas/images/boton_flechadcha_azul.png" alt=" CONECTAR ">
+						</button>
+						</label>
+
+					</fieldset>
+					</form>
+					<!-- FIN FORMULARIO DE CONEXIÓN -->
+
+					<div class="clear"></div>
+
+					<ul class="ul_tarjeta mensaje_procesando">
+						<li>Conectando...</li>
+					</ul>
+
+					<ul class="ul_tarjeta">
+						<li class="con_margintop_0_5em"><a href="olvide-mi-contrasena.htm" title="Olvidé mi contraseña">Olvidé mi contraseña</a></li>
+						<li><a href="registro.htm" title="Registro / Activar tu Tarjeta BM">Registro / Activar tu Tarjeta BM</a></li>
+					</ul>
+
+					  
+					
+					
+					<div class="clear"></div>
+
+				</div>
+
+			</div>
+
+			<div id="header_barra_inf">
+
+				<nav id="menu_cabecera_inferior" class="mostrar_escritorio">
+
+					<!-- MENU COMPRA ONLINE -->
+										<ul>
+
+						<li class="ico_cabecera_compraonline">
+							<a href="tiendaonline.php" title="COMPRA ONLINE" target="tol">
+							<figure>
+								<img src="vistas/images/ico_compraonline.png" alt="COMPRA ONLINE">
+								<figcaption>COMPRA&nbsp;ONLINE</figcaption>
+							</figure>
+							</a>	
+						</li>
+
+						<li>
+							<a href="https://www.online.bmsupermercados.es/bm/categoria/ofertas/c-99999#!Grid" title="OFERTAS" target="tol">
+							<figure>
+								<img src="vistas/images/ico_ofertas.png" alt="OFERTAS">
+								<figcaption>OFERTAS</figcaption>
+							</figure>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://www.online.bmsupermercados.es/bm/categoria/frescos/c-2812#!Grid" title="FRESCOS" target="tol">
+							<figure>
+								<img src="vistas/images/ico_frescos.png" alt="FRESCOS">
+								<figcaption>FRESCOS</figcaption>
+							</figure>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://www.online.bmsupermercados.es/bm/categoria/alimentacion/c-2811#!Grid" title="ALIMENTACIÓN" target="tol">
+							<figure>
+								<img src="vistas/images/ico_alimentacion.png" alt="ALIMENTACIÓN">
+								<figcaption>ALIMENTACI&Oacute;N</figcaption>
+							</figure>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://www.online.bmsupermercados.es/bm/categoria/bebidas/c-1690#!Grid" title="BEBIDAS" target="tol">
+							<figure>
+								<img src="vistas/images/ico_bebidas.png" alt="BEBIDAS">
+								<figcaption>BEBIDAS</figcaption>
+							</figure>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://www.online.bmsupermercados.es/bm/categoria/cuidado-del-hogar/c-2813#!Grid" title="CUIDADO DEL HOGAR" target="tol">
+							<figure>
+								<img src="vistas/images/ico_dieteticos.png" alt="CUIDADO DEL HOGAR">
+								<figcaption>CUIDADO DEL HOGAR</figcaption>
+							</figure>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://www.online.bmsupermercados.es/bm/categoria/bebe/c-2297#!Grid" title="BEBÉ" target="tol">
+							<figure>
+								<img src="vistas/images/ico_congelados.png" alt="BEBÉ">
+								<figcaption>BEBÉ</figcaption>
+							</figure>
+							</a>
+						</li>
+
+					</ul>
+										
+					
+				</nav>
+
+			</div>
+
+			<div id="fondo_oscurecido" title="OCULTAR MEN&Uacute;"></div>
+
+			<div id="fondo_oscurecido_2" title="OCULTAR VENTANA"></div>
+				
+			<div id="fondo_claro">
+				<img src="vistas/images/CARGA-ANIM.gif" alt="BM SUPERMERCADOS" title="BM SUPERMERCADOS">
+			</div>	
+
+			<!-- MENU PRINCIPAL/SUBMENUS -->
+			<div id="barra_navegador">	
+			<nav id="navegador" class="no_mostrar_menu">
+
+				<a id="aindice"></a>
+
+				<div id="titu_menu">
+
+										<ul id="idiomas">
+						<li><a href="login.htm" lang="es"><abbr title="Español" class="activo">ES</abbr></a></li>
+						<li><a href="logina.htm" lang="eu"><abbr title="Euskara" >EU</abbr></a></li>
+					</ul>
+
+					<a href="javascript:;" title="OCULTAR MEN&Uacute;">
+					<div class="boton_desplegable_icono">
+						<span class="icono_raya"></span>
+						<span class="icono_raya"></span>
+						<!--<span class="icono_raya"></span>-->
+					</div>
+					</a>
+
+					<!--<span class="txt_mostrar">< ?= $txt_menu ?></span>-->
+
+				</div>
+
+				<!-- MENU PRINCIPAL -->
+				<ul id="menuprincipal" class="navegacion">
+
+										<!-- APARTADO -->
+					<li class="apartado_principal">
+
+						<a href="#" target="_self" title="Actualidad">
+							<span>Actualidad</span>
+						</a>
+
+												<!-- SUBMENU -->
+						<ul class="submenuprincipal">
+
+														<!-- SUBAPARTADO -->
+							<li class="subapartado_nivel_1">
+
+								<a href="noticias.htm" target="_self" title="Noticias">
+									<span>Noticias</span>
+								</a>
+
+							</li><!-- FIN SUBAPARTADO -->
+														<!-- SUBAPARTADO -->
+							<li class="subapartado_nivel_1">
+
+								<a href="recetas.htm" target="_self" title="Recetas">
+									<span>Recetas</span>
+								</a>
+
+							</li><!-- FIN SUBAPARTADO -->
+														<!-- SUBAPARTADO -->
+							<li class="subapartado_nivel_1">
+
+								<a href="elige-cuidarte.htm" target="_self" title="Elige cuidarte">
+									<span>Elige cuidarte</span>
+								</a>
+
+							</li><!-- FIN SUBAPARTADO -->
+														<!-- SUBAPARTADO -->
+							<li class="subapartado_nivel_1">
+
+								<a href="promociones.htm" target="_self" title="Promociones">
+									<span>Promociones</span>
+								</a>
+
+							</li><!-- FIN SUBAPARTADO -->
+														<!-- SUBAPARTADO -->
+							<li class="subapartado_nivel_1">
+
+								<a href="concursos.htm" target="_self" title="Concursos">
+									<span>Concursos</span>
+								</a>
+
+							</li><!-- FIN SUBAPARTADO -->
+							
+						</ul><!-- FIN SUBMENU -->
+						
+					</li><!-- FIN APARTADO -->
+										<!-- APARTADO -->
+					<li class="apartado_principal">
+
+						<a href="#" target="_self" title="Tarjeta BM">
+							<span>Tarjeta BM</span>
+						</a>
+
+												<!-- SUBMENU -->
+						<ul class="submenuprincipal">
+
+														<!-- SUBAPARTADO -->
+							<li class="subapartado_nivel_1">
+
+								<a href="tarjeta-bm.htm" target="_self" title="Tu Tarjeta BM">
+									<span>Tu Tarjeta BM</span>
+								</a>
+
+							</li><!-- FIN SUBAPARTADO -->
+														<!-- SUBAPARTADO -->
+							<li class="subapartado_nivel_1">
+
+								<a href="tarjeta-bm-familia.htm" target="_self" title="Tarjeta BM Familia">
+									<span>Tarjeta BM Familia</span>
+								</a>
+
+							</li><!-- FIN SUBAPARTADO -->
+														<!-- SUBAPARTADO -->
+							<li class="subapartado_nivel_1">
+
+								<a href="consigue-tu-tarjeta.htm" target="_self" title="Consigue tu Tarjeta BM">
+									<span>Consigue tu Tarjeta BM</span>
+								</a>
+
+							</li><!-- FIN SUBAPARTADO -->
+														<!-- SUBAPARTADO -->
+							<li class="subapartado_nivel_1">
+
+								<a href="contacto.htm" target="_self" title="Contacto">
+									<span>Contacto</span>
+								</a>
+
+							</li><!-- FIN SUBAPARTADO -->
+							
+						</ul><!-- FIN SUBMENU -->
+						
+					</li><!-- FIN APARTADO -->
+										<!-- APARTADO -->
+					<li class="apartado_principal">
+
+						<a href="ofertas.htm" target="_self" title="Ofertas">
+							<span>Ofertas</span>
+						</a>
+
+						
+					</li><!-- FIN APARTADO -->
+										<!-- APARTADO -->
+					<li class="apartado_principal">
+
+						<a href="#" target="_self" title="Tiendas">
+							<span>Tiendas</span>
+						</a>
+
+												<!-- SUBMENU -->
+						<ul class="submenuprincipal">
+
+														<!-- SUBAPARTADO -->
+							<li class="subapartado_nivel_1">
+
+								<a href="buscador-tiendas.htm" target="_self" title="Buscador">
+									<span>Buscador</span>
+								</a>
+
+							</li><!-- FIN SUBAPARTADO -->
+														<!-- SUBAPARTADO -->
+							<li class="subapartado_nivel_1">
+
+								<a href="franquicias-que-nos-diferencia.htm" target="_self" title="Franquicias">
+									<span>Franquicias</span>
+								</a>
+
+							</li><!-- FIN SUBAPARTADO -->
+														<!-- SUBAPARTADO -->
+							<li class="subapartado_nivel_1">
+
+								<a href="nuestras-sedes.htm" target="_self" title="Nuestras sedes">
+									<span>Nuestras sedes</span>
+								</a>
+
+							</li><!-- FIN SUBAPARTADO -->
+							
+						</ul><!-- FIN SUBMENU -->
+						
+					</li><!-- FIN APARTADO -->
+										<!-- APARTADO -->
+					<li class="apartado_principal">
+
+						<a href="nuestra-forma-de-ser.htm" target="_self" title="Nuestra forma de ser">
+							<span>Nuestra forma de ser</span>
+						</a>
+
+						
+					</li><!-- FIN APARTADO -->
+					
+					<!-- OPCIONES: RECETAS-ELIGE CUIDARTE-FRANQUICIAS -->
+					<li class="separador"></li>
+
+					<li class="apartado_principal">
+
+												<a href="recetas.htm" target="_self" title="RECETAS">
+							<span>RECETAS</span>
+						</a>
+
+					</li>
+
+					<li class="apartado_principal">
+
+												<a href="elige-cuidarte.htm" title="ELIGE CUIDARTE">
+							<span>ELIGE CUIDARTE</span>
+						</a>
+
+					</li>
+
+					<li class="apartado_principal">
+
+												<a href="franquicias-que-nos-diferencia.htm" target="_self" title="FRANQUICIAS">
+							<span>FRANQUICIAS</span>
+						</a>
+
+					</li>
+					<!-- FIN OPCIONES: RECETAS-ELIGE CUIDARTE-FRANQUICIAS -->
+
+					<!-- OPCIONES: COMPRA ONLINE-MI CUENTA-CONTACTO-FRANQUICIAS -->
+					<li class="separador"></li>
+
+					<li class="apartado_principal">
+
+												<a class="menu_compraonline" href="tienda-online.htm"  title="COMPRA ONLINE">
+							<span>COMPRA ONLINE</span>
+						</a>
+
+					</li>
+
+					<li id="menu_opcion_acceso" class="apartado_principal">
+
+						<a class="menu_micuenta" href="#" target="_self" title="MI CUENTA">
+							<span>MI CUENTA</span>
+						</a>
+
+					</li>
+
+										<li class="apartado_principal">
+
+						<a class="menu_contacto" href="contacto.htm" target="_self" title="CONTACTO">
+							<span>CONTACTO</span>
+						</a>
+
+					</li>
+
+										<li class="apartado_principal">
+
+						<a class="menu_appbm" href="tarjeta-bm.htm" target="_self" title="APP BM">
+							<span>APP BM</span>
+						</a>
+
+					</li>
+
+					<!-- FIN OPCIONES: COMPRA ONLINE-MI CUENTA-CONTACTO-FRANQUICIAS -->
+
+					<!-- OPCIONES: REDES SOCIALES -->
+					<li class="separador"></li>
+
+					<li class="apartado_principal">
+
+						<div id="menu_redessociales">
+
+							<a href="https://www.facebook.com/BMSupermercados" title="FACEBOOK" target="new">
+							<figure>
+								<img src="vistas/images/ico_facebook.png" alt="FACEBOOK">
+								<figcaption></figcaption>
+							</figure>
+							</a>
+
+							<a href="https://twitter.com/bmsupermercados" title="TWITTER" target="new">
+							<figure>
+								<img src="vistas/images/ico_twitter.png" alt="TWITTER">
+								<figcaption></figcaption>
+							</figure>
+							</a>
+
+							<a href="https://www.youtube.com/user/BMSupermercados" title="YOUTUBE" target="new">
+							<figure>
+								<img src="vistas/images/ico_youtube.png" alt="YOUTUBE">
+								<figcaption></figcaption>
+							</figure>
+							</a>
+
+							<a href="https://instagram.com/bmsupermercados/" title="INSTAGRAM" target="new">
+							<figure>
+								<img src="vistas/images/ico_instagram.png" alt="INSTAGRAM">
+								<figcaption></figcaption>
+							</figure>
+							</a>
+
+						</div>
+
+					</li>
+
+				</ul><!-- FIN MENU PRINCIPAL -->
+
+			</nav>
+			</div><!-- FIN MENU PRINCIPAL/SUBMENUS -->
+
+		</div>
+
+	</header>
+	<main class="main_anchuratotal">
+
+		<a id="acontenido"></a>
+
+		
+				<div class="cont_inicio altura_contents">
+
+			<section id="zona_destacados">
+
+				<h2>DESTACADOS</h2>
+
+				<div class="row_destacados">
+
+										
+						
+					
+						<div id="ini_destacado_1">
+
+							<a href="tiendaonline.php" title="VER OFERTAS" target="_berria"
+							onclick="dataLayer.push({'event': 'home slider','slide title':'También online'});">
+
+								<img src="https://www.bmsupermercados.es/fotografias/banners/destacado-web-feb-2020-cas.jpg" alt="También online">
+
+								<div class="texto_destacados">
+
+																		<div class="destacado_txt_txiki">
+										<span style="color: #008aa6">FRESCOS A TU GUSTO</span>
+									</div>
+									
+																		<div style="background: #008aa6">
+										<span>También online</span>
+									</div>
+									
+									
+																		<div class="destacado_txt_txiki">
+										<span style="color: #008aa6">VER OFERTAS</span>
+									</div>
+									
+								</div>
+
+							</a>
+
+						</div>
+
+					
+				
+				
+						
+					
+						
+										<div id="ini_destacados_2_3">
+					
+						<div id="ini_destacado_2">
+
+							<a href="https://www.online.bmsupermercados.es/bm/categoria/frescos/frutas/c-2179#!Grid" title="Comprar" target="_berria"
+							onclick="dataLayer.push({'event': 'home slider','slide title':'Manzanas'});">
+
+								<img src="https://www.bmsupermercados.es/fotografias/banners/A21400_00_pintk-lady.jpg" alt="Manzanas">
+
+								<div class="texto_destacados">
+
+																		<div class="destacado_txt_txiki">
+										<span style="color: #80bf80">Producto de temporada</span>
+									</div>
+									
+																		<div style="background: #80bf80">
+										<span>Manzanas</span>
+									</div>
+									
+									
+																		<div class="destacado_txt_txiki">
+										<span style="color: #80bf80">Comprar</span>
+									</div>
+									
+								</div>
+
+							</a>
+
+						</div>
+
+					
+				
+				
+						
+					
+						
+					
+						<div id="ini_destacado_3">
+
+							<a href="danos-tu-opinion-y-llevate-un-vale-de-10euro.htm" title="Participa" target="_self"
+							onclick="dataLayer.push({'event': 'home slider','slide title':'Sorteo'});">
+
+								<img src="https://www.bmsupermercados.es/fotografias/banners/destacado-nueva-web-feb-2020-cas.jpg" alt="Sorteo">
+
+								<div class="texto_destacados">
+
+									
+																		<div style="background: #ee734a">
+										<span>Sorteo</span>
+									</div>
+									
+									
+																		<div class="destacado_txt_txiki">
+										<span style="color: #ee734a">Participa</span>
+									</div>
+									
+								</div>
+
+							</a>
+
+						</div>
+
+										</div>
+					
+				
+				
+						
+					
+						
+					
+						<div id="ini_destacado_4">
+
+							<a href="no-es-lo-mismo-reflejo-de-lo-que-somos.htm" title="Leer" target="_self"
+							onclick="dataLayer.push({'event': 'home slider','slide title':'No es lo mismo'});">
+
+								<img src="https://www.bmsupermercados.es/fotografias/banners/DESTACADOS-04-03_1.jpg" alt="No es lo mismo">
+
+								<div class="texto_destacados">
+
+																		<div class="destacado_txt_txiki">
+										<span style="color: #e7969e">Publicación</span>
+									</div>
+									
+																		<div style="background: #e7969e">
+										<span>No es</span>
+									</div>
+									
+																		<div style="background: #e7969e">
+										<span>lo mismo</span>
+									</div>
+									
+																		<div class="destacado_txt_txiki">
+										<span style="color: #e7969e">Leer</span>
+									</div>
+									
+								</div>
+
+							</a>
+
+						</div>
+
+					
+								</div>
+
+				<div class="row_destacados">
+				
+				
+						
+					
+						
+					
+						<div id="ini_destacado_5">
+
+							<a href="recetas.htm" title="Leer" target="_self"
+							onclick="dataLayer.push({'event': 'home slider','slide title':'Para todos los gustos'});">
+
+								<img src="https://www.bmsupermercados.es/fotografias/banners/DESTACADOS-05-02.jpg" alt="Para todos los gustos">
+
+								<div class="texto_destacados">
+
+																		<div class="destacado_txt_txiki">
+										<span style="color: #fabe64">Recetas</span>
+									</div>
+									
+																		<div style="background: #fabe64">
+										<span>Para todos</span>
+									</div>
+									
+																		<div style="background: #fabe64">
+										<span>los gustos</span>
+									</div>
+									
+																		<div class="destacado_txt_txiki">
+										<span style="color: #fabe64">Leer</span>
+									</div>
+									
+								</div>
+
+							</a>
+
+						</div>
+
+					
+				
+				
+						
+					
+						
+					
+						<div id="ini_destacado_6">
+
+							<a href="bolsa-biodegradable-lavable-reutilizable.htm" title="Regalo" target="_self"
+							onclick="dataLayer.push({'event': 'home slider','slide title':''});">
+
+								<img src="https://www.bmsupermercados.es/fotografias/banners/DESTACADOS-06-01-CAS.jpg" alt="">
+
+								<div class="texto_destacados">
+
+									
+									
+									
+																		<div class="destacado_txt_txiki">
+										<span style="color: #d33b52">Regalo</span>
+									</div>
+									
+								</div>
+
+							</a>
+
+						</div>
+
+					
+				
+				
+						
+					
+						
+					
+						<div id="ini_destacado_7">
+
+							<a href="https://www.bmsupermercados.es/lechuga-mitos.htm" title="Leer" target="_self"
+							onclick="dataLayer.push({'event': 'home slider','slide title':'Mitos y creencias'});">
+
+								<img src="https://www.bmsupermercados.es/fotografias/banners/bm-lechuga.jpg" alt="Mitos y creencias">
+
+								<div class="texto_destacados">
+
+																		<div class="destacado_txt_txiki">
+										<span style="color: #ee734a">Lechuga</span>
+									</div>
+									
+																		<div style="background: #ee734a">
+										<span>Mitos y creencias</span>
+									</div>
+									
+									
+																		<div class="destacado_txt_txiki">
+										<span style="color: #ee734a">Leer</span>
+									</div>
+									
+								</div>
+
+							</a>
+
+						</div>
+
+					
+				
+								</div>
+				
+						
+			</section>
+
+		</div>
+		
+				<div class="cont_inicio cont_ofertas_inicio">
+
+			<div class="row centrado">
+
+				<section id="ofertas_inicio" class="col-xl-12 col-lg-12 col-md-12 col-12">
+
+										<h2>PREPARAMOS LOS <strong>FRESCOS A TU GUSTO</strong> TAMBIÉN ONLINE</h2>
+										
+					
+					<div class="row centrado">
+
+												
+														<article class="col-xl-3 col-lg-6 col-md-6 col-6 article_oferta">
+
+								<h3>OFERTA</h3>
+
+								<div class="article_oferta_fondo">
+
+									<figure>
+										<img src="https://www.bmsupermercados.es/fotografias/ofertas-tol/A72386_00_manzana_KANZI.jpg" alt="">
+										<figcaption></figcaption>
+									</figure>
+
+									<div class="oferta_texto">
+
+										<p>
+
+											<span class="oferta_nombre">Manzana</span>
+
+											<span class="oferta_descripcion">Kanzi</span>
+
+											<span class="oferta_preciogranel"></span>
+
+											<span class="oferta_precio">2,79 &euro; </span>
+
+										</p>
+
+										<a class="zona_boton" href="https://www.online.bmsupermercados.es/bm/producto/-manzana-kanzi-a-granel-200-g-aproxunidad/p-72386#DetalleProducto" title="COMPRAR" target="new">
+										<div class="boton boton_sin_picto">
+											<span>COMPRAR</span>
+											<figure>
+												<img src="vistas/images/boton_flechaabajo_azuloscuro.png" alt="COMPRAR">
+												<figcaption></figcaption>
+											</figure>
+										</div>
+										</a>
+
+									</div>
+
+								</div>
+
+							</article>
+							
+						
+														<article class="col-xl-3 col-lg-6 col-md-6 col-6 article_oferta">
+
+								<h3>OFERTA</h3>
+
+								<div class="article_oferta_fondo">
+
+									<figure>
+										<img src="https://www.bmsupermercados.es/fotografias/ofertas-tol/A30480_00_filete24_02_2020.jpg" alt="">
+										<figcaption></figcaption>
+									</figure>
+
+									<div class="oferta_texto">
+
+										<p>
+
+											<span class="oferta_nombre">Filete</span>
+
+											<span class="oferta_descripcion">Ternera A&ntilde;ojo</span>
+
+											<span class="oferta_preciogranel"></span>
+
+											<span class="oferta_precio">11,90 &euro; </span>
+
+										</p>
+
+										<a class="zona_boton" href="https://www.online.bmsupermercados.es/bm/producto/-filete-brazuelo-de-ternera-anojocorte-250g-aprox/p-30480#DetalleProducto" title="COMPRAR" target="new">
+										<div class="boton boton_sin_picto">
+											<span>COMPRAR</span>
+											<figure>
+												<img src="vistas/images/boton_flechaabajo_azuloscuro.png" alt="COMPRAR">
+												<figcaption></figcaption>
+											</figure>
+										</div>
+										</a>
+
+									</div>
+
+								</div>
+
+							</article>
+							
+						
+														<article class="col-xl-3 col-lg-6 col-md-6 col-6 article_oferta">
+
+								<h3>OFERTA</h3>
+
+								<div class="article_oferta_fondo">
+
+									<figure>
+										<img src="https://www.bmsupermercados.es/fotografias/ofertas-tol/A08761_00_chorizo_Torreon_bellota.jpg" alt="">
+										<figcaption></figcaption>
+									</figure>
+
+									<div class="oferta_texto">
+
+										<p>
+
+											<span class="oferta_nombre">Chorizo</span>
+
+											<span class="oferta_descripcion">Ib&eacute;rico - Torre&oacute;n</span>
+
+											<span class="oferta_preciogranel"></span>
+
+											<span class="oferta_precio">22,95 &euro;/kg</span>
+
+										</p>
+
+										<a class="zona_boton" href="https://www.online.bmsupermercados.es/bm/producto/torreon-chorizo-de-bellota/p-8761#DetalleProducto" title="COMPRAR" target="new">
+										<div class="boton boton_sin_picto">
+											<span>COMPRAR</span>
+											<figure>
+												<img src="vistas/images/boton_flechaabajo_azuloscuro.png" alt="COMPRAR">
+												<figcaption></figcaption>
+											</figure>
+										</div>
+										</a>
+
+									</div>
+
+								</div>
+
+							</article>
+							
+						
+														<article class="col-xl-3 col-lg-6 col-md-6 col-6 article_oferta">
+
+								<h3>OFERTA</h3>
+
+								<div class="article_oferta_fondo">
+
+									<figure>
+										<img src="https://www.bmsupermercados.es/fotografias/ofertas-tol/A22115_00_FRESON_Cestillo.jpg" alt="">
+										<figcaption></figcaption>
+									</figure>
+
+									<div class="oferta_texto">
+
+										<p>
+
+											<span class="oferta_nombre">Fres&oacute;n</span>
+
+											<span class="oferta_descripcion">de Palos (cestillo)</span>
+
+											<span class="oferta_preciogranel"></span>
+
+											<span class="oferta_precio">2,19 &euro;</span>
+
+										</p>
+
+										<a class="zona_boton" href="https://www.online.bmsupermercados.es/bm/eu/produktua/-marrubi-saskia-500g/p-22115#DetalleProducto" title="COMPRAR" target="new">
+										<div class="boton boton_sin_picto">
+											<span>COMPRAR</span>
+											<figure>
+												<img src="vistas/images/boton_flechaabajo_azuloscuro.png" alt="COMPRAR">
+												<figcaption></figcaption>
+											</figure>
+										</div>
+										</a>
+
+									</div>
+
+								</div>
+
+							</article>
+							
+					</div>
+
+					<div id="ant-sig">
+						<a href="javascript:;" title="Anterior" id="boton_ofertas_ant" class="bot_ant">
+							<img src="vistas/images/ofertas_bot_anterior.png" title="ANTERIORES" alt="Botón ANTERIORES">
+							<span class="sr-only">Anteriores</span>
+						</a>                         
+						<a href="javascript:;" title="Siguiente" id="boton_ofertas_sig" class="bot_sig">
+							<img src="vistas/images/ofertas_bot_siguiente.png" title="SIGUIENTES" alt="Botón SIGUIENTES">
+							<span class="sr-only">Siguientes</span>
+						</a>
+					</div>
+
+					<div class="clear2_0em"></div>
+
+										<a class="zona_boton" href="https://www.online.bmsupermercados.es/bm/categoria/ofertas/c-99999#!Grid" title="VER MÁS OFERTAS" target="_berria">
+					<div class="boton">
+						<span>VER MÁS OFERTAS</span>
+						<figure>
+							<img src="vistas/images/boton_mas_azuloscuro.png" alt="VER MÁS OFERTAS">
+							<figcaption></figcaption>
+						</figure>
+					</div>
+					</a>
+
+					<div class="clear3_0em"></div>
+
+				</section>
+
+			</div>
+
+		</div>
+		
+				<div class="cont_inicio_estrecho">
+
+			<section id="banners_home_pie">
+
+				<h2>BANNERS</h2>
+
+				<div class="row_bannershome">
+
+										
+												<div id="home_banner_1">
+
+							<a href="tiendas.htm" title="Encuéntranos" target="_self"
+							onclick="dataLayer.push({
+                                     'event': 'banner home',
+                                     'banner title':'Hay uno muy cerca de ti'
+                            });"
+							>
+
+								<img src="https://www.bmsupermercados.es/fotografias/banners/banner_localizarsupermercado.jpg" alt="Hay uno muy cerca de ti">
+
+								<div class="texto_destacados">
+
+																		<div class="destacado_txt_txiki">
+										<span style="color: #008aa6">Supermercado BM</span>
+									</div>
+									
+																		<div style="background: #008aa6">
+										<span>Hay uno</span>
+									</div>
+									
+																		<div style="background: #008aa6">
+										<span>muy cerca de ti</span>
+									</div>
+									
+																		<div class="destacado_txt_txiki">
+										<span style="color: #008aa6">Encuéntranos</span>
+									</div>
+									
+								</div>
+
+							</a>
+
+						</div>
+						
+					
+												<div id="home_banner_2">
+
+							<a href="tarjeta-bm.htm" title="Descárgatela" target="_self"
+							onclick="dataLayer.push({
+                                     'event': 'banner home',
+                                     'banner title':'No te pierdas nada'
+                            });"
+							>
+
+								<img src="https://www.bmsupermercados.es/fotografias/banners/banner_descargarapp.jpg" alt="No te pierdas nada">
+
+								<div class="texto_destacados">
+
+																		<div class="destacado_txt_txiki">
+										<span style="color: #ee734a">App</span>
+									</div>
+									
+																		<div style="background: #ee734a">
+										<span>No te</span>
+									</div>
+									
+																		<div style="background: #ee734a">
+										<span>pierdas nada</span>
+									</div>
+									
+																		<div class="destacado_txt_txiki">
+										<span style="color: #ee734a">Descárgatela</span>
+									</div>
+									
+								</div>
+
+							</a>
+
+						</div>
+						
+				</div>
+
+			</section>
+
+		</div>
+		
+	</main>
+
+		<footer>
+
+		<div class="row" id="footer_cont">
+
+			<section class="col-xl-12 col-lg-12 col-md-12 col-12 article_contenedor" id="logo_pie">
+
+				<h2 class="invisible">BM SUPERMERCADOS</h2>
+
+				<a href="inicio.htm" title="BM SUPERMERCADOS">
+				<figure>
+					<img src="vistas/images/logotipo_footer_bm.png" alt="BM SUPERMERCADOS" title="BM SUPERMERCADOS">
+					<figcaption></figcaption>
+				</figure>
+				</a>
+
+			</section>
+
+			<section class="col-xl-12 col-lg-12 col-md-12 col-12 article_contenedor" id="redes_pie">
+
+				<h3>REDES SOCIALES</h3>
+
+				<ul class="menu_footer_redes">
+
+					<li>
+						<a href="https://www.facebook.com/BMSupermercados" title="FACEBOOK" target="new">
+						<figure>
+							<img src="vistas/images/ico_facebook.png" alt="FACEBOOK">
+							<figcaption></figcaption>
+						</figure>
+						</a>
+					</li>
+
+					<li>
+						<a href="https://twitter.com/bmsupermercados" title="TWITTER" target="new">
+						<figure>
+							<img src="vistas/images/ico_twitter.png" alt="TWITTER">
+							<figcaption></figcaption>
+						</figure>
+						</a>
+					</li>
+
+					<li>
+						<a href="https://www.youtube.com/user/BMSupermercados" title="YOUTUBE" target="new">
+						<figure>
+							<img src="vistas/images/ico_youtube.png" alt="YOUTUBE">
+							<figcaption></figcaption>
+						</figure>
+						</a>
+					</li>
+
+					<li>
+						<a href="https://instagram.com/bmsupermercados/" title="INSTAGRAM" target="new">
+						<figure>
+							<img src="vistas/images/ico_instagram.png" alt="INSTAGRAM">
+							<figcaption></figcaption>
+						</figure>
+						</a>
+					</li>
+
+				</ul>
+
+			</section>
+
+			<section class="col-xl-12 col-lg-12 col-md-12 col-12 article_contenedor" id="footer_barra_inf">
+
+				<h2>ENLACES</h2>
+
+				<div class="row">
+
+					<nav id="footer_izda" class="col-xl-5 col-lg-12 col-md-12 col-12">
+						
+						<h3>OTROS ENLACES</h3>
+
+												<ul>
+							<li><a href="trabaja-con-nosotros.htm" target="_self" title="TRABAJA CON NOSOTROS">TRABAJA CON NOSOTROS</a></li>
+							<li><a href="franquicias-que-nos-diferencia.htm" target="_self" title="FRANQUICIAS BM SHOP">FRANQUICIAS BM SHOP</a></li>
+						</ul>
+
+					</nav>
+
+					<div id="footer_logo_uvesco" class="col-xl-2 col-lg-12 col-md-12 col-12">
+
+												<a href="https://www.uvesco.es/" title="GRUPO UVESCO" target="new">
+						<figure>
+							<img src="vistas/images/logotipo_footer_uvesco.png" alt="GRUPO UVESCO" title="GRUPO UVESCO">
+							<figcaption></figcaption>
+						</figure>
+						</a>
+
+					</div>
+
+					<nav id="footer_dcha" class="col-xl-5 col-lg-12 col-md-12 col-12">
+
+												<ul>
+							<li><a href="aviso-legal.htm" target="_self" title="Aviso legal">Aviso legal</a></li>
+							<li><a href="politica-de-privacidad.htm" target="_self" title="Política de privacidad">Política de privacidad</a></li>
+							<li><a href="politica-de-cookies.htm" target="_self" title="Política de cookies">Política de cookies</a></li>
+						</ul>
+
+					</nav>
+
+				</div>
+
+			</section>
+
+		</div>
+
+	</footer>
+</body>
+
+</html>
