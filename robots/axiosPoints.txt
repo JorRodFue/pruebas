@@ -1,17 +1,16 @@
 ﻿<!doctype html>
 <html lang="es">
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="description" content="En BM Supermercados somos naturales, cercanos y de confianza… ¡como nuestros productos! La constate búsqueda de la excelencia, una atención personal y nuestra decidida apuesta por productos locales y frescos son algunas de las señas de identidad por las que nos eliges.">
 	<meta name="keywords" content="BM, SUPERMERCADO, NO ES LO MISMO, ERCORECA, NETTO, ALIMENTACIÓN, FRESCOS, BEBIDAS, TIENDA, FRUTERÍA, CARNICERÍA, CHARCUTERÍA, PESCADERÍA, AHORRO, MARCA LÍDER, BARATO, CALIDAD, BAZAR, TEXTIL">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=.6">
 
-	<title>BM SUPERMERCADOS</title>
+	<title>BM: Saldo en tarjeta</title>
 
 	<link rel="shortcut icon" href="favicon.ico" sizes="16x16" type="image/x-icon">
 	<link rel="styleSheet" type="text/css" href="vistas/css/estiloak_orokorra.css">
 	<link rel="styleSheet" type="text/css" href="vistas/css/contenidos.css">
-		<script>var cuantos_destacados = 0</script>
 		<script src="vistas/jquery/jquery-3.4.1.js"></script>
 	<script src="vistas/jquery/bootstrap.min.js"></script>
 	<script src="vistas/jquery/elementos.js"></script>
@@ -19,6 +18,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap" rel="stylesheet">
 </head>
+
 <body class="no_mostrar_menu">
 
 	
@@ -26,8 +26,8 @@
 <script>
   dataLayer = [{
     'idioma': 'es',
-    'seccion': '',
-	'subseccion': ''
+    'seccion': 'Zona privada',
+	'subseccion': 'Saldo en tarjeta'
   }];
 </script>
  
@@ -56,8 +56,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<li><a href="#acontenido" accesskey="e">Ir a los contenidos</a></li>
 		</ul>
 
-	</div>
-	
+	</div>	
 	<header>
 
 		<div id="header_cont" class="header_escritorio">
@@ -88,8 +87,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							<a href="#" title="MI CUENTA" target="_self">
 							<figure>
 								<img src="vistas/images/ico_micuenta.png" alt="MI CUENTA">
-																<figcaption>MI CUENTA</figcaption>
-																							</figure>
+																								<figcaption><strong>JAVIER</strong></figcaption>
+															</figure>
 							</a>
 						</li>
 
@@ -237,49 +236,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<span class="icono_raya"></span>
 					</div>
 
-										<!-- FORMULARIO DE CONEXIÓN -->
-					<h4 class="titu_item">Accede a tu cuenta</h4>
-
-										<form name="conecta" id="conecta" method="post" action="login.htm">
-					<fieldset>
-
-						<legend class="invisible">Inserte usuario y clave y pulse "CONECTAR":</legend>
-
-						<label for="usuario"><span class="invisible">DNI o usuario</span>
-						<input id="usuario" name="usuario" type="text" title="DNI o usuario" placeholder="DNI o usuario">
-						</label>
-
-						<label for="clave"><span class="invisible">clave</span>
-						<input id="clave" name="clave" type="password" title="clave" placeholder="······">
-						</label>
-
-						<input name="konektatu" type="hidden" id="konektatu" value="1">
-						<input name="llave_form_login" type="hidden" id="llave_form_login" value="fb2aa5225e1dd84f12e2203f2ba255e48cd3bf091e223403913ad80c9954f534">
-
-						<label class="label_button" for="conectar">
-						<button type="submit" name="conectar" id ="conectar" title=" CONECTAR ">
-							<span> CONECTAR </span>
-							<img src="vistas/images/boton_flechadcha_azul.png" alt=" CONECTAR ">
-						</button>
-						</label>
-
-					</fieldset>
-					</form>
-					<!-- FIN FORMULARIO DE CONEXIÓN -->
-
-					<div class="clear"></div>
-
-					<ul class="ul_tarjeta mensaje_procesando">
-						<li>Conectando...</li>
-					</ul>
+					
+										
+															<h4 class="titu_item">JAVIER RODRIGO MINGO</h4>
 
 					<ul class="ul_tarjeta">
-						<li class="con_margintop_0_5em"><a href="olvide-mi-contrasena.htm" title="Olvidé mi contraseña">Olvidé mi contraseña</a></li>
-						<li><a href="registro.htm" title="Registro / Activar tu Tarjeta BM">Registro / Activar tu Tarjeta BM</a></li>
+						<li class="zonapriv_op_tarjetabm">Nº de tarjeta BM:<br />
+						<strong>1000060120754</strong></li>
+						<li class="con_margintop_1_5em"><a href="saldo-tarjeta.htm" class="zonapriv_op_saldotarjeta">Saldo en tarjeta</a></li>
+						<!-- <li><a href="ofertas-tarjeta.htm" class="zonapriv_op_ofertas">Ofertas</a></li> -->
+						<li><a href="datos-personales.htm" class="zonapriv_op_datospersonales">Datos personales</a></li>
+						<li><a href="cambiar-contrasena.htm" class="zonapriv_op_cambiarcontrasena">Cambiar contraseña</a></li>
+						<li class="con_margintop_1_5em"><a href="cerrar-sesion.htm" class="zonapriv_op_cerrarsesion">Cerrar sesión</a></li>
 					</ul>
-
-					  
-					
 					
 					<div class="clear"></div>
 
@@ -381,8 +350,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div id="titu_menu">
 
 										<ul id="idiomas">
-						<li><a href="login.htm" lang="es"><abbr title="Español" class="activo">ES</abbr></a></li>
-						<li><a href="logina.htm" lang="eu"><abbr title="Euskara" >EU</abbr></a></li>
+						<li><a href="saldo-tarjeta.htm" lang="es"><abbr title="Español" class="activo">ES</abbr></a></li>
+						<li><a href="txartelan-metatutakoa.htm" lang="eu"><abbr title="Euskara" >EU</abbr></a></li>
 					</ul>
 
 					<a href="javascript:;" title="OCULTAR MEN&Uacute;">
@@ -669,569 +638,521 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		</div>
 
 	</header>
-	<main class="main_anchuratotal">
 
-		<a id="acontenido"></a>
+	<main>
 
-		
-				<div class="cont_inicio altura_contents">
+		<div class="row">
 
-			<section id="zona_destacados">
+			<div class="col-xl-9 col-lg-12 col-md-12 col-12 sin_padding">
 
-				<h2>DESTACADOS</h2>
+				<section id="contenido">
 
-				<div class="row_destacados">
+					<a id="acontenido"></a>
 
+					<h2 class="titu_formularios">Saldo en tarjeta</h2>
+
+					
+										<div class="contenido_capa">
+
+						<h4 class="titu_contenido">
+							<!--<span class="txt_numero_contenido">1</span>-->
+							<span class="txt_titu_contenido">ACUMULADO Y BONOS</span>
+						</h4>
+
+						<div class="row">
+
+							<p class="txt_grande">Acumulado:  €</p>
+
+							<p class="txt_grande">Bonos disponibles: 0</p>
+
+							<p>Bonos consumidos: 0</p>
+
+							<p>Bonos conseguidos: 0</p>
+
+						</div>
+
+					</div>
+
+					<div class="contenido_capa cont_fondo_gris">
+
+						<h4 class="titu_contenido">
+							<!--<span class="txt_numero_contenido">2</span>-->
+							<span class="txt_titu_contenido">BÚSQUEDA POR FECHAS</span>
+						</h4>
+
+						<!-- FORMULARIO -->
+
+						<a name="aformulario" id="aformulario"></a>
+						
+												<form name="form_movimientos" id="form_movimientos" method="post" enctype="multipart/form-data" action="saldo-tarjeta.htm">	
+													
+						<fieldset>
+
+							<div class="linea_separacion"></div>
+
+							<div class="row">
+
+								<!-- FECHA INI -->
+								<div class="form-group col-xl-6 col-lg-6 col-md-12 col-12">
+
+									<span class="text_fecha">Inicial:</span>
+
+									<!-- DIA INI -->
+									<label for="diaini"><span class="invisible">D&iacute;a inicio</span>
+									<select name="diaini" id="diaini" title="D&iacute;a inicio">
 										
-						
-					
-						<div id="ini_destacado_1">
-
-							<a href="tiendaonline.php" title="VER OFERTAS" target="_berria"
-							onclick="dataLayer.push({'event': 'home slider','slide title':'También online'});">
-
-								<img src="https://www.bmsupermercados.es/fotografias/banners/destacado-web-feb-2020-cas.jpg" alt="También online">
-
-								<div class="texto_destacados">
-
-																		<div class="destacado_txt_txiki">
-										<span style="color: #008aa6">FRESCOS A TU GUSTO</span>
-									</div>
-									
-																		<div style="background: #008aa6">
-										<span>También online</span>
-									</div>
-									
-									
-																		<div class="destacado_txt_txiki">
-										<span style="color: #008aa6">VER OFERTAS</span>
-									</div>
-									
-								</div>
-
-							</a>
-
-						</div>
-
-					
-				
-				
-						
-					
-						
-										<div id="ini_destacados_2_3">
-					
-						<div id="ini_destacado_2">
-
-							<a href="https://www.online.bmsupermercados.es/bm/categoria/frescos/frutas/c-2179#!Grid" title="Comprar" target="_berria"
-							onclick="dataLayer.push({'event': 'home slider','slide title':'Manzanas'});">
-
-								<img src="https://www.bmsupermercados.es/fotografias/banners/A21400_00_pintk-lady.jpg" alt="Manzanas">
-
-								<div class="texto_destacados">
-
-																		<div class="destacado_txt_txiki">
-										<span style="color: #80bf80">Producto de temporada</span>
-									</div>
-									
-																		<div style="background: #80bf80">
-										<span>Manzanas</span>
-									</div>
-									
-									
-																		<div class="destacado_txt_txiki">
-										<span style="color: #80bf80">Comprar</span>
-									</div>
-									
-								</div>
-
-							</a>
-
-						</div>
-
-					
-				
-				
-						
-					
-						
-					
-						<div id="ini_destacado_3">
-
-							<a href="danos-tu-opinion-y-llevate-un-vale-de-10euro.htm" title="Participa" target="_self"
-							onclick="dataLayer.push({'event': 'home slider','slide title':'Sorteo'});">
-
-								<img src="https://www.bmsupermercados.es/fotografias/banners/destacado-nueva-web-feb-2020-cas.jpg" alt="Sorteo">
-
-								<div class="texto_destacados">
-
-									
-																		<div style="background: #ee734a">
-										<span>Sorteo</span>
-									</div>
-									
-									
-																		<div class="destacado_txt_txiki">
-										<span style="color: #ee734a">Participa</span>
-									</div>
-									
-								</div>
-
-							</a>
-
-						</div>
-
-										</div>
-					
-				
-				
-						
-					
-						
-					
-						<div id="ini_destacado_4">
-
-							<a href="no-es-lo-mismo-reflejo-de-lo-que-somos.htm" title="Leer" target="_self"
-							onclick="dataLayer.push({'event': 'home slider','slide title':'No es lo mismo'});">
-
-								<img src="https://www.bmsupermercados.es/fotografias/banners/DESTACADOS-04-03_1.jpg" alt="No es lo mismo">
-
-								<div class="texto_destacados">
-
-																		<div class="destacado_txt_txiki">
-										<span style="color: #e7969e">Publicación</span>
-									</div>
-									
-																		<div style="background: #e7969e">
-										<span>No es</span>
-									</div>
-									
-																		<div style="background: #e7969e">
-										<span>lo mismo</span>
-									</div>
-									
-																		<div class="destacado_txt_txiki">
-										<span style="color: #e7969e">Leer</span>
-									</div>
-									
-								</div>
-
-							</a>
-
-						</div>
-
-					
-								</div>
-
-				<div class="row_destacados">
-				
-				
-						
-					
-						
-					
-						<div id="ini_destacado_5">
-
-							<a href="recetas.htm" title="Leer" target="_self"
-							onclick="dataLayer.push({'event': 'home slider','slide title':'Para todos los gustos'});">
-
-								<img src="https://www.bmsupermercados.es/fotografias/banners/DESTACADOS-05-02.jpg" alt="Para todos los gustos">
-
-								<div class="texto_destacados">
-
-																		<div class="destacado_txt_txiki">
-										<span style="color: #fabe64">Recetas</span>
-									</div>
-									
-																		<div style="background: #fabe64">
-										<span>Para todos</span>
-									</div>
-									
-																		<div style="background: #fabe64">
-										<span>los gustos</span>
-									</div>
-									
-																		<div class="destacado_txt_txiki">
-										<span style="color: #fabe64">Leer</span>
-									</div>
-									
-								</div>
-
-							</a>
-
-						</div>
-
-					
-				
-				
-						
-					
-						
-					
-						<div id="ini_destacado_6">
-
-							<a href="bolsa-biodegradable-lavable-reutilizable.htm" title="Regalo" target="_self"
-							onclick="dataLayer.push({'event': 'home slider','slide title':''});">
-
-								<img src="https://www.bmsupermercados.es/fotografias/banners/DESTACADOS-06-01-CAS.jpg" alt="">
-
-								<div class="texto_destacados">
-
-									
-									
-									
-																		<div class="destacado_txt_txiki">
-										<span style="color: #d33b52">Regalo</span>
-									</div>
-									
-								</div>
-
-							</a>
-
-						</div>
-
-					
-				
-				
-						
-					
-						
-					
-						<div id="ini_destacado_7">
-
-							<a href="https://www.bmsupermercados.es/lechuga-mitos.htm" title="Leer" target="_self"
-							onclick="dataLayer.push({'event': 'home slider','slide title':'Mitos y creencias'});">
-
-								<img src="https://www.bmsupermercados.es/fotografias/banners/bm-lechuga.jpg" alt="Mitos y creencias">
-
-								<div class="texto_destacados">
-
-																		<div class="destacado_txt_txiki">
-										<span style="color: #ee734a">Lechuga</span>
-									</div>
-									
-																		<div style="background: #ee734a">
-										<span>Mitos y creencias</span>
-									</div>
-									
-									
-																		<div class="destacado_txt_txiki">
-										<span style="color: #ee734a">Leer</span>
-									</div>
-									
-								</div>
-
-							</a>
-
-						</div>
-
-					
-				
-								</div>
-				
-						
-			</section>
-
-		</div>
-		
-				<div class="cont_inicio cont_ofertas_inicio">
-
-			<div class="row centrado">
-
-				<section id="ofertas_inicio" class="col-xl-12 col-lg-12 col-md-12 col-12">
-
-										<h2>PREPARAMOS LOS <strong>FRESCOS A TU GUSTO</strong> TAMBIÉN ONLINE</h2>
-										
-					
-					<div class="row centrado">
-
-												
-														<article class="col-xl-3 col-lg-6 col-md-6 col-6 article_oferta">
-
-								<h3>OFERTA</h3>
-
-								<div class="article_oferta_fondo">
-
-									<figure>
-										<img src="https://www.bmsupermercados.es/fotografias/ofertas-tol/A72386_00_manzana_KANZI.jpg" alt="">
-										<figcaption></figcaption>
-									</figure>
-
-									<div class="oferta_texto">
-
-										<p>
-
-											<span class="oferta_nombre">Manzana</span>
-
-											<span class="oferta_descripcion">Kanzi</span>
-
-											<span class="oferta_preciogranel"></span>
-
-											<span class="oferta_precio">2,79 &euro; </span>
-
-										</p>
-
-										<a class="zona_boton" href="https://www.online.bmsupermercados.es/bm/producto/-manzana-kanzi-a-granel-200-g-aproxunidad/p-72386#DetalleProducto" title="COMPRAR" target="new">
-										<div class="boton boton_sin_picto">
-											<span>COMPRAR</span>
-											<figure>
-												<img src="vistas/images/boton_flechaabajo_azuloscuro.png" alt="COMPRAR">
-												<figcaption></figcaption>
-											</figure>
-										</div>
-										</a>
-
-									</div>
+																					<option value="01"  >01</option>
+																					<option value="02"  >02</option>
+																					<option value="03"  >03</option>
+																					<option value="04"  >04</option>
+																					<option value="05"  >05</option>
+																					<option value="06"  >06</option>
+																					<option value="07"  >07</option>
+																					<option value="08"  >08</option>
+																					<option value="09"  >09</option>
+																					<option value="10"  >10</option>
+																					<option value="11"  >11</option>
+																					<option value="12"  >12</option>
+																					<option value="13"  >13</option>
+																					<option value="14"  >14</option>
+																					<option value="15"  >15</option>
+																					<option value="16"  >16</option>
+																					<option value="17"  >17</option>
+																					<option value="18"  >18</option>
+																					<option value="19"  >19</option>
+																					<option value="20"  >20</option>
+																					<option value="21"  >21</option>
+																					<option value="22"  >22</option>
+																					<option value="23"  >23</option>
+																					<option value="24"  >24</option>
+																					<option value="25" selected="selected" >25</option>
+																					<option value="26"  >26</option>
+																					<option value="27"  >27</option>
+																					<option value="28"  >28</option>
+																					<option value="29"  >29</option>
+																					<option value="30"  >30</option>
+																					<option value="31"  >31</option>
+																				
+									</select>
+									</label>
+
+									<span class="separacion_fechas">/</span>
+
+									<!-- MES INI -->
+									<label for="mesini"><span class="invisible">Mes inicio</span>
+									<select name="mesini" id="mesini" title="Mes inicio">
+																					<option value="01"  selected="selected">ENE</option>
+																					<option value="02"  >FEB</option>
+																					<option value="03"  >MAR</option>
+																					<option value="04"  >ABR</option>
+																					<option value="05"  >MAY</option>
+																					<option value="06"  >JUN</option>
+																					<option value="07"  >JUL</option>
+																					<option value="08"  >AGO</option>
+																					<option value="09"  >SEP</option>
+																					<option value="10"  >OCT</option>
+																					<option value="11"  >NOV</option>
+																					<option value="12"  >DIC</option>
+																			</select>
+									</label>
+
+									<span class="separacion_fechas">/</span>
+
+									<!-- AÑO INI -->
+									<label for="anoini"><span class="invisible">A&ntilde;o inicio</span>
+									<select name="anoini" id="anoini" title="A&ntilde;o inicio">
+																					<option value="2010"  >2010</option>
+																					<option value="2011"  >2011</option>
+																					<option value="2012"  >2012</option>
+																					<option value="2013"  >2013</option>
+																					<option value="2014"  >2014</option>
+																					<option value="2015"  >2015</option>
+																					<option value="2016"  >2016</option>
+																					<option value="2017"  >2017</option>
+																					<option value="2018"  >2018</option>
+																					<option value="2019"  >2019</option>
+																					<option value="2020" selected="selected" >2020</option>
+																			</select>
+									</label>
 
 								</div>
 
-							</article>
-							
-						
-														<article class="col-xl-3 col-lg-6 col-md-6 col-6 article_oferta">
+								<!-- FECHA FIN -->
+								<div class="form-group col-xl-6 col-lg-6 col-md-12 col-12">
 
-								<h3>OFERTA</h3>
+									<span class="text_fecha">Final:</span>
 
-								<div class="article_oferta_fondo">
+									<!-- DIA FIN -->
+									<label for="diafin"><span class="invisible">D&iacute;a fin</span>
+									<select name="diafin" id="diafin" title="D&iacute;a fin">
+																					<option value="01"  >01</option>
+																					<option value="02"  >02</option>
+																					<option value="03"  >03</option>
+																					<option value="04"  >04</option>
+																					<option value="05"  >05</option>
+																					<option value="06"  >06</option>
+																					<option value="07"  >07</option>
+																					<option value="08"  >08</option>
+																					<option value="09"  >09</option>
+																					<option value="10"  >10</option>
+																					<option value="11"  >11</option>
+																					<option value="12"  >12</option>
+																					<option value="13"  >13</option>
+																					<option value="14"  >14</option>
+																					<option value="15"  >15</option>
+																					<option value="16"  >16</option>
+																					<option value="17"  >17</option>
+																					<option value="18"  >18</option>
+																					<option value="19"  >19</option>
+																					<option value="20"  >20</option>
+																					<option value="21"  >21</option>
+																					<option value="22"  >22</option>
+																					<option value="23"  >23</option>
+																					<option value="24"  >24</option>
+																					<option value="25" selected="selected" >25</option>
+																					<option value="26"  >26</option>
+																					<option value="27"  >27</option>
+																					<option value="28"  >28</option>
+																					<option value="29"  >29</option>
+																					<option value="30"  >30</option>
+																					<option value="31"  >31</option>
+																			</select>
+									</label>
 
-									<figure>
-										<img src="https://www.bmsupermercados.es/fotografias/ofertas-tol/A30480_00_filete24_02_2020.jpg" alt="">
-										<figcaption></figcaption>
-									</figure>
+									<span class="separacion_fechas">/</span>
 
-									<div class="oferta_texto">
+									<!-- MES FIN -->
+									<label for="mesfin"><span class="invisible">Mes fin</span>
+									<select name="mesfin" id="mesfin" title="Mes fin">
+																					<option value="01"  >ENE</option>
+																					<option value="02"  selected="selected">FEB</option>
+																					<option value="03"  >MAR</option>
+																					<option value="04"  >ABR</option>
+																					<option value="05"  >MAY</option>
+																					<option value="06"  >JUN</option>
+																					<option value="07"  >JUL</option>
+																					<option value="08"  >AGO</option>
+																					<option value="09"  >SEP</option>
+																					<option value="10"  >OCT</option>
+																					<option value="11"  >NOV</option>
+																					<option value="12"  >DIC</option>
+																			</select>
+									</label>
 
-										<p>
+									<span class="separacion_fechas">/</span>
 
-											<span class="oferta_nombre">Filete</span>
-
-											<span class="oferta_descripcion">Ternera A&ntilde;ojo</span>
-
-											<span class="oferta_preciogranel"></span>
-
-											<span class="oferta_precio">11,90 &euro; </span>
-
-										</p>
-
-										<a class="zona_boton" href="https://www.online.bmsupermercados.es/bm/producto/-filete-brazuelo-de-ternera-anojocorte-250g-aprox/p-30480#DetalleProducto" title="COMPRAR" target="new">
-										<div class="boton boton_sin_picto">
-											<span>COMPRAR</span>
-											<figure>
-												<img src="vistas/images/boton_flechaabajo_azuloscuro.png" alt="COMPRAR">
-												<figcaption></figcaption>
-											</figure>
-										</div>
-										</a>
-
-									</div>
-
-								</div>
-
-							</article>
-							
-						
-														<article class="col-xl-3 col-lg-6 col-md-6 col-6 article_oferta">
-
-								<h3>OFERTA</h3>
-
-								<div class="article_oferta_fondo">
-
-									<figure>
-										<img src="https://www.bmsupermercados.es/fotografias/ofertas-tol/A08761_00_chorizo_Torreon_bellota.jpg" alt="">
-										<figcaption></figcaption>
-									</figure>
-
-									<div class="oferta_texto">
-
-										<p>
-
-											<span class="oferta_nombre">Chorizo</span>
-
-											<span class="oferta_descripcion">Ib&eacute;rico - Torre&oacute;n</span>
-
-											<span class="oferta_preciogranel"></span>
-
-											<span class="oferta_precio">22,95 &euro;/kg</span>
-
-										</p>
-
-										<a class="zona_boton" href="https://www.online.bmsupermercados.es/bm/producto/torreon-chorizo-de-bellota/p-8761#DetalleProducto" title="COMPRAR" target="new">
-										<div class="boton boton_sin_picto">
-											<span>COMPRAR</span>
-											<figure>
-												<img src="vistas/images/boton_flechaabajo_azuloscuro.png" alt="COMPRAR">
-												<figcaption></figcaption>
-											</figure>
-										</div>
-										</a>
-
-									</div>
-
-								</div>
-
-							</article>
-							
-						
-														<article class="col-xl-3 col-lg-6 col-md-6 col-6 article_oferta">
-
-								<h3>OFERTA</h3>
-
-								<div class="article_oferta_fondo">
-
-									<figure>
-										<img src="https://www.bmsupermercados.es/fotografias/ofertas-tol/A22115_00_FRESON_Cestillo.jpg" alt="">
-										<figcaption></figcaption>
-									</figure>
-
-									<div class="oferta_texto">
-
-										<p>
-
-											<span class="oferta_nombre">Fres&oacute;n</span>
-
-											<span class="oferta_descripcion">de Palos (cestillo)</span>
-
-											<span class="oferta_preciogranel"></span>
-
-											<span class="oferta_precio">2,19 &euro;</span>
-
-										</p>
-
-										<a class="zona_boton" href="https://www.online.bmsupermercados.es/bm/eu/produktua/-marrubi-saskia-500g/p-22115#DetalleProducto" title="COMPRAR" target="new">
-										<div class="boton boton_sin_picto">
-											<span>COMPRAR</span>
-											<figure>
-												<img src="vistas/images/boton_flechaabajo_azuloscuro.png" alt="COMPRAR">
-												<figcaption></figcaption>
-											</figure>
-										</div>
-										</a>
-
-									</div>
+									<!-- AÑO FIN -->
+									<label for="anofin"><span class="invisible">A&ntilde;o fin</span>
+									<select name="anofin" id="anofin" title="A&ntilde;o fin">
+																					<option value="2010"  >2010</option>
+																					<option value="2011"  >2011</option>
+																					<option value="2012"  >2012</option>
+																					<option value="2013"  >2013</option>
+																					<option value="2014"  >2014</option>
+																					<option value="2015"  >2015</option>
+																					<option value="2016"  >2016</option>
+																					<option value="2017"  >2017</option>
+																					<option value="2018"  >2018</option>
+																					<option value="2019"  >2019</option>
+																					<option value="2020" selected="selected" >2020</option>
+																			</select>
+									</label>
 
 								</div>
 
-							</article>
-							
+							</div>
+
+							<!-- PROCESANDO... -->
+							<div class="row mensaje_procesando">
+
+								<span>Tu solicitud se está procesando, espera un momento por favor...</span>
+
+							</div>
+
+							<input name="lang" type="hidden" id="lang" value="1">
+
+							<!-- BOTON VER MOVIMIENTOS -->
+							<div class="formulario_capa centrado">
+
+								<label class="label_button" for="enviar_movimientos">
+								<button type="submit" class="boton_sin_picto" name="enviar_movimientos" id="enviar_movimientos" title=" VER MOVIMIENTOS ">
+									<span> VER MOVIMIENTOS </span>
+									<img src="vistas/images/boton_flechadcha_azul.png" alt=" VER MOVIMIENTOS ">
+								</button>
+								</label>
+
+							</div>
+
+						</form>
+						<!-- FIN FORMULARIO -->
+
 					</div>
 
-					<div id="ant-sig">
-						<a href="javascript:;" title="Anterior" id="boton_ofertas_ant" class="bot_ant">
-							<img src="vistas/images/ofertas_bot_anterior.png" title="ANTERIORES" alt="Botón ANTERIORES">
-							<span class="sr-only">Anteriores</span>
-						</a>                         
-						<a href="javascript:;" title="Siguiente" id="boton_ofertas_sig" class="bot_sig">
-							<img src="vistas/images/ofertas_bot_siguiente.png" title="SIGUIENTES" alt="Botón SIGUIENTES">
-							<span class="sr-only">Siguientes</span>
-						</a>
+					<div class="contenido_capa">
+
+						<h4 class="titu_contenido">
+							<!--<span class="txt_numero_contenido">3</span>-->
+							<span class="txt_titu_contenido">MOVIMIENTOS</span>
+						</h3>
+
+						<div class="row">
+
+							<!--<p class="txt_grande">< ?= $movimientos_txt_movimientos ?>: < ?= $hay_movimientos ?></p>-->
+
+														<p>No hay datos</p>      
+							
+							
+						</div>
+
 					</div>
-
-					<div class="clear2_0em"></div>
-
-										<a class="zona_boton" href="https://www.online.bmsupermercados.es/bm/categoria/ofertas/c-99999#!Grid" title="VER MÁS OFERTAS" target="_berria">
-					<div class="boton">
-						<span>VER MÁS OFERTAS</span>
-						<figure>
-							<img src="vistas/images/boton_mas_azuloscuro.png" alt="VER MÁS OFERTAS">
-							<figcaption></figcaption>
-						</figure>
-					</div>
-					</a>
-
-					<div class="clear3_0em"></div>
+											
+						
 
 				</section>
 
 			</div>
 
-		</div>
-		
-				<div class="cont_inicio_estrecho">
+			<aside class="col-xl-3 col-lg-12 col-md-12 col-12">
 
-			<section id="banners_home_pie">
+				<a id="asubindice"></a>
 
-				<h2>BANNERS</h2>
+	            	
+								<div class="row">
 
-				<div class="row_bannershome">
+					<section id="ofertas" class="col-xl-12 col-lg-12 col-md-12 col-12">
 
-										
-												<div id="home_banner_1">
+						<h2 class="mostrar_escritorio">
 
-							<a href="tiendas.htm" title="Encuéntranos" target="_self"
-							onclick="dataLayer.push({
-                                     'event': 'banner home',
-                                     'banner title':'Hay uno muy cerca de ti'
-                            });"
-							>
+							SELECCIÓN
+						</h2>
 
-								<img src="https://www.bmsupermercados.es/fotografias/banners/banner_localizarsupermercado.jpg" alt="Hay uno muy cerca de ti">
+						<h2 class="mostrar_movil">
 
-								<div class="texto_destacados">
+														PREPARAMOS LOS <strong>FRESCOS A TU GUSTO</strong> TAMBIÉN ONLINE
+							
+							
+						</h2>
 
-																		<div class="destacado_txt_txiki">
-										<span style="color: #008aa6">Supermercado BM</span>
+						<div class="row centrado">
+
+														
+																<article class="col-xl-12 col-lg-6 col-md-6 col-6 article_oferta">
+
+									<h3>OFERTA</h3>
+
+									<div class="article_oferta_fondo">
+
+										<figure>
+											<img src="https://www.bmsupermercados.es/fotografias/ofertas-tol/A72386_00_manzana_KANZI.jpg" alt="">
+											<figcaption></figcaption>
+										</figure>
+
+										<div class="oferta_texto">
+
+											<p>
+
+												<span class="oferta_nombre">Manzana</span>
+
+												<span class="oferta_descripcion">Kanzi</span>
+
+												<span class="oferta_preciogranel"></span>
+
+												<span class="oferta_precio">2,79 &euro;</span>
+
+											</p>
+
+											<a class="zona_boton" href="https://www.online.bmsupermercados.es/bm/producto/-manzana-kanzi-a-granel-200-g-aproxunidad/p-72386#DetalleProducto" title="COMPRAR" target="new">
+											<div class="boton boton_sin_picto">
+												<span>COMPRAR</span>
+												<figure>
+													<img src="vistas/images/boton_flechaabajo_azuloscuro.png" alt="COMPRAR">
+													<figcaption></figcaption>
+												</figure>
+											</div>
+											</a>
+
+										</div>
+
 									</div>
-									
-																		<div style="background: #008aa6">
-										<span>Hay uno</span>
-									</div>
-									
-																		<div style="background: #008aa6">
-										<span>muy cerca de ti</span>
-									</div>
-									
-																		<div class="destacado_txt_txiki">
-										<span style="color: #008aa6">Encuéntranos</span>
-									</div>
-									
-								</div>
 
+								</article>
+								
+							
+																<article class="col-xl-12 col-lg-6 col-md-6 col-6 article_oferta">
+
+									<h3>OFERTA</h3>
+
+									<div class="article_oferta_fondo">
+
+										<figure>
+											<img src="https://www.bmsupermercados.es/fotografias/ofertas-tol/A30480_00_filete24_02_2020.jpg" alt="">
+											<figcaption></figcaption>
+										</figure>
+
+										<div class="oferta_texto">
+
+											<p>
+
+												<span class="oferta_nombre">Filete</span>
+
+												<span class="oferta_descripcion">Ternera A&ntilde;ojo</span>
+
+												<span class="oferta_preciogranel"></span>
+
+												<span class="oferta_precio">11,90 &euro;</span>
+
+											</p>
+
+											<a class="zona_boton" href="https://www.online.bmsupermercados.es/bm/producto/-filete-brazuelo-de-ternera-anojocorte-250g-aprox/p-30480#DetalleProducto" title="COMPRAR" target="new">
+											<div class="boton boton_sin_picto">
+												<span>COMPRAR</span>
+												<figure>
+													<img src="vistas/images/boton_flechaabajo_azuloscuro.png" alt="COMPRAR">
+													<figcaption></figcaption>
+												</figure>
+											</div>
+											</a>
+
+										</div>
+
+									</div>
+
+								</article>
+								
+														<a class="zona_boton boton_vermas" href="https://www.online.bmsupermercados.es/bm/categoria/ofertas/c-99999#!Grid" title="VER MÁS OFERTAS" target="_berria">
+							<div class="boton">
+								<span>VER MÁS OFERTAS</span>
+								<figure>
+									<img src="vistas/images/boton_mas_azuloscuro.png" alt="VER MÁS OFERTAS">
+									<figcaption></figcaption>
+								</figure>
+							</div>
 							</a>
 
 						</div>
-						
-					
-												<div id="home_banner_2">
 
-							<a href="tarjeta-bm.htm" title="Descárgatela" target="_self"
-							onclick="dataLayer.push({
-                                     'event': 'banner home',
-                                     'banner title':'No te pierdas nada'
-                            });"
-							>
+					</section>
 
-								<img src="https://www.bmsupermercados.es/fotografias/banners/banner_descargarapp.jpg" alt="No te pierdas nada">
-
-								<div class="texto_destacados">
-
-																		<div class="destacado_txt_txiki">
-										<span style="color: #ee734a">App</span>
-									</div>
-									
-																		<div style="background: #ee734a">
-										<span>No te</span>
-									</div>
-									
-																		<div style="background: #ee734a">
-										<span>pierdas nada</span>
-									</div>
-									
-																		<div class="destacado_txt_txiki">
-										<span style="color: #ee734a">Descárgatela</span>
-									</div>
-									
-								</div>
-
-							</a>
-
-						</div>
-						
 				</div>
+				
+								<div class="row">
 
-			</section>
+					<section id="banners_aside" class="col-xl-12 col-lg-12 col-md-12 col-12">
 
+						<h2>BANNERS</h2>
+
+												
+														<div id="aside_banner_1">
+
+								<a href="recetas.htm" title="Ver" target="_self"
+								onclick="dataLayer.push({
+                                     'event': 'banner columna',
+                                     'banner title':'Para todos los gustos'
+                            	});">
+
+									<img src="https://www.bmsupermercados.es/fotografias/banners/banner_recetas.jpg" alt="Para todos los gustos">
+
+									<div class="texto_destacados">
+
+																				<div class="destacado_txt_txiki">
+											<span style="color: #008aa6">Recetas</span>
+										</div>
+										
+																				<div style="background: #008aa6">
+											<span>Para todos</span>
+										</div>
+										
+																				<div style="background: #008aa6">
+											<span>los gustos</span>
+										</div>
+										
+																				<div class="destacado_txt_txiki">
+											<span style="color: #008aa6">Ver</span>
+										</div>
+										
+									</div>
+
+								</a>
+
+							</div>
+							
+						
+														<div id="aside_banner_2">
+
+								<a href="elige-cuidarte.htm" title="Ver" target="_self"
+								onclick="dataLayer.push({
+                                     'event': 'banner columna',
+                                     'banner title':'Consejos para una vida sana'
+                            	});">
+
+									<img src="https://www.bmsupermercados.es/fotografias/banners/banner_eligecuidarte_cas.jpg" alt="Consejos para una vida sana">
+
+									<div class="texto_destacados">
+
+																				<div class="destacado_txt_txiki">
+											<span style="color: #8bc41a">Elige cuidarte</span>
+										</div>
+										
+																				<div style="background: #8bc41a">
+											<span>Consejos para</span>
+										</div>
+										
+																				<div style="background: #8bc41a">
+											<span>una vida sana</span>
+										</div>
+										
+																				<div class="destacado_txt_txiki">
+											<span style="color: #8bc41a">Ver</span>
+										</div>
+										
+									</div>
+
+								</a>
+
+							</div>
+							
+						
+														<div id="aside_banner_3">
+
+								<a href="tarjeta-bm.htm" title="Descárgatela" target="_self"
+								onclick="dataLayer.push({
+                                     'event': 'banner columna',
+                                     'banner title':'No te pierdas nada'
+                            	});">
+
+									<img src="https://www.bmsupermercados.es/fotografias/banners/banner_descargarapp_1.jpg" alt="No te pierdas nada">
+
+									<div class="texto_destacados">
+
+																				<div class="destacado_txt_txiki">
+											<span style="color: #ee734a">App</span>
+										</div>
+										
+																				<div style="background: #ee734a">
+											<span>No te</span>
+										</div>
+										
+																				<div style="background: #ee734a">
+											<span>pierdas nada</span>
+										</div>
+										
+																				<div class="destacado_txt_txiki">
+											<span style="color: #ee734a">Descárgatela</span>
+										</div>
+										
+									</div>
+
+								</a>
+
+							</div>
+							
+					</section>
+
+				</div>
+				
+			</aside>
 		</div>
-		
+
 	</main>
 
 		<footer>

@@ -6,7 +6,7 @@ global.config.browser.args = ['--disable-web-security']
 
 global.config.proxy.enabled = true;
 global.config.proxy.ip = 'luminatipm.yudonpay.com';
-global.config.proxy.port = 24002;
+global.config.proxy.port = 24005;
 //para UK 24003
 // para SP 24002
 // para MX 24005
@@ -19,9 +19,9 @@ global.config.anticaptchaKey = 'a68d59058912a27711f1ea51886dfb4c';
 require('../../robots/robots/src/config/db');
 const repository = require('../../robots/robots/src/repository/global/shein.repository');
 
-// repository.findOne = () => false;
-// repository.save = () => false;
-// repository.update = () => false;
+repository.findOne = () => false;
+repository.save = () => false;
+repository.update = () => false;
 const { getInfo, oneClick } = require('../../robots/robots/src/domain/global/shein.domain');
 
 const reqID = "testing_desig";
@@ -33,7 +33,7 @@ console.log("MERCHANT", merchant)
 const logins =
 {
   SHEIN: {
-    login: 'tarjetasrewards@gmail.com', password: 'Ar01022015'
+    login: 'tarjetasrewards@gmail.com', password: 'Yudonpay123'
   },
   ELTENEDOR: {
     login: 'tarjetasrewards@gmail.com', password: 'Yudonpay123'

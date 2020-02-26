@@ -1,0 +1,1268 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="description" content="En BM Supermercados somos naturales, cercanos y de confianza… ¡como nuestros productos! La constate búsqueda de la excelencia, una atención personal y nuestra decidida apuesta por productos locales y frescos son algunas de las señas de identidad por las que nos eliges.">
+	<meta name="keywords" content="BM, SUPERMERCADO, NO ES LO MISMO, ERCORECA, NETTO, ALIMENTACIÓN, FRESCOS, BEBIDAS, TIENDA, FRUTERÍA, CARNICERÍA, CHARCUTERÍA, PESCADERÍA, AHORRO, MARCA LÍDER, BARATO, CALIDAD, BAZAR, TEXTIL">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=.6">
+
+	<title>BM: Saldo en tarjeta</title>
+
+	<link rel="shortcut icon" href="favicon.ico" sizes="16x16" type="image/x-icon">
+	<link rel="styleSheet" type="text/css" href="vistas/css/estiloak_orokorra.css">
+	<link rel="styleSheet" type="text/css" href="vistas/css/contenidos.css">
+		<script src="vistas/jquery/jquery-3.4.1.js"></script>
+	<script src="vistas/jquery/bootstrap.min.js"></script>
+	<script src="vistas/jquery/elementos.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap" rel="stylesheet">
+</head>
+
+<body class="no_mostrar_menu">
+
+	
+ 
+<script>
+  dataLayer = [{
+    'idioma': 'es',
+    'seccion': 'Zona privada',
+	'subseccion': 'Saldo en tarjeta'
+  }];
+</script>
+ 
+
+<!-- Google Tag Manager -->
+ 
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M4DRD2"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M4DRD2');</script>
+
+ 
+<!-- End Google Tag Manager -->
+
+
+	
+	<div id="ayuda" class="sr-only">
+
+		<ul>
+			<li><a href="#aindice" accesskey="a">Ir al &iacute;ndice principal de contenidos</a></li>
+			<!--<li><a href="#asubindice" accesskey="b">< ?= $txt_irasubindice ?></a></li>-->
+			<li><a href="#acontenido" accesskey="e">Ir a los contenidos</a></li>
+		</ul>
+
+	</div>	
+	<header>
+
+		<div id="header_cont" class="header_escritorio">
+
+			<div id="header_barra_sup">
+
+				<div id="menu_desplegable">
+
+					<div class="boton_desplegable">
+					<a href="javascript:;" title="MENÚ">
+						<div class="boton_desplegable_icono">
+							<span class="icono_raya"></span>
+							<span class="icono_raya"></span>
+							<span class="icono_raya"></span>
+						</div>
+						<span class="invisible">MENÚ</span>
+					</a>
+					</div>
+
+				</div>
+
+				<nav id="menu_cabecera_izda">
+
+					<!-- MENU CABECERA IZQUIERDA - ESCRITORIO -->
+					<ul class="mostrar_escritorio">
+
+						<li id="opcion_acceso">
+							<a href="#" title="MI CUENTA" target="_self">
+							<figure>
+								<img src="vistas/images/ico_micuenta.png" alt="MI CUENTA">
+																								<figcaption><strong>JAVIER</strong></figcaption>
+															</figure>
+							</a>
+						</li>
+
+												<li>
+							<a href="contacto.htm" title="CONTACTO" target="_self">
+							<figure>
+								<img src="vistas/images/ico_contacto.png" alt="CONTACTO">
+								<figcaption>CONTACTO</figcaption>
+							</figure>
+							</a>
+						</li>
+
+												<li>
+							<a href="tarjeta-bm.htm" title="APP BM" target="_self">
+							<figure>
+								<img src="vistas/images/ico_appbm.png" alt="APP BM">
+								<figcaption>APP BM</figcaption>
+							</figure>
+							</a>
+						</li>
+
+					</ul>
+
+					<!-- MENU CABECERA IZQUIERDA - MOVIL -->
+					<ul class="mostrar_movil">
+
+												<li>
+							<a href="tarjeta-bm.htm" title="APP BM" target="_self">
+							<figure>
+								<img src="vistas/images/ico_appbm.png" alt="APP BM">
+								<figcaption>APP BM</figcaption>
+							</figure>
+							</a>
+						</li>
+
+					</ul>
+					
+				</nav>
+
+				<div id="logo_cabecera">
+
+										<a href="inicio.htm" title="BM SUPERMERCADOS">
+					<figure>
+						<img src="vistas/images/logotipo_bm.png" alt="BM SUPERMERCADOS" title="BM SUPERMERCADOS">
+						<figcaption></figcaption>
+					</figure>
+					</a>
+
+				</div>
+
+				<nav id="menu_cabecera_dcha">
+
+					<!-- MENU CABECERA DERECHA - ESCRITORIO -->
+					<ul class="mostrar_escritorio menu_cabecera_compraonline">
+
+												<li>
+							<a href="tienda-online.htm" title="COMPRA ONLINE" >
+							<figure>
+								<img src="vistas/images/ico_compraonline.png" alt="COMPRA ONLINE">
+								<figcaption></figcaption>
+							</figure>
+							</a>
+						</li>
+
+					</ul>
+
+					<!-- MENU CABECERA DERECHA - ESCRITORIO -->
+					<ul class="mostrar_escritorio menu_cabecera_redes">
+
+						<li>
+							<a href="https://www.facebook.com/BMSupermercados" title="FACEBOOK" target="new">
+							<figure>
+								<img src="vistas/images/ico_facebook.png" alt="FACEBOOK">
+								<figcaption></figcaption>
+							</figure>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://twitter.com/bmsupermercados" title="TWITTER" target="new">
+							<figure>
+								<img src="vistas/images/ico_twitter.png" alt="TWITTER">
+								<figcaption></figcaption>
+							</figure>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://www.youtube.com/user/BMSupermercados" title="YOUTUBE" target="new">
+							<figure>
+								<img src="vistas/images/ico_youtube.png" alt="YOUTUBE">
+								<figcaption></figcaption>
+							</figure>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://instagram.com/bmsupermercados/" title="INSTAGRAM" target="new">
+							<figure>
+								<img src="vistas/images/ico_instagram.png" alt="INSTAGRAM">
+								<figcaption></figcaption>
+							</figure>
+							</a>
+						</li>
+
+					</ul>
+
+					<!-- MENU CABECERA DERECHA - MOVIL -->
+					<ul class="mostrar_movil">
+
+												<li>
+							<a href="contacto.htm" title="CONTACTO" target="_self">
+							<figure>
+								<img src="vistas/images/ico_contacto.png" alt="CONTACTO">
+								<figcaption>CONTACTO</figcaption>
+							</figure>
+							</a>
+						</li>
+
+						<li id="opcion_acceso_movil">
+							<a href="#" title="MI CUENTA" target="_self">
+							<figure>
+								<img src="vistas/images/ico_micuenta.png" alt="MI CUENTA">
+								<figcaption>MI CUENTA</figcaption>
+							</figure>
+							</a>
+						</li>
+
+					</ul>
+
+				</nav>
+
+			</div>
+
+			<!-- VENTANA CONEXION TARJETA (MI CUENTA) -->
+			<div id="barra_conexion">
+
+					
+					
+				<div id="conecta_tarjeta" class="ventana_tarjeta visibilidad">
+					
+
+					<div class="boton_cerrar_ventana" title="CERRAR">
+						<span class="icono_raya"></span>
+						<span class="icono_raya"></span>
+					</div>
+
+					
+										
+															<h4 class="titu_item">JAVIER RODRIGO MINGO</h4>
+
+					<ul class="ul_tarjeta">
+						<li class="zonapriv_op_tarjetabm">Nº de tarjeta BM:<br />
+						<strong>1000060120754</strong></li>
+						<li class="con_margintop_1_5em"><a href="saldo-tarjeta.htm" class="zonapriv_op_saldotarjeta">Saldo en tarjeta</a></li>
+						<!-- <li><a href="ofertas-tarjeta.htm" class="zonapriv_op_ofertas">Ofertas</a></li> -->
+						<li><a href="datos-personales.htm" class="zonapriv_op_datospersonales">Datos personales</a></li>
+						<li><a href="cambiar-contrasena.htm" class="zonapriv_op_cambiarcontrasena">Cambiar contraseña</a></li>
+						<li class="con_margintop_1_5em"><a href="cerrar-sesion.htm" class="zonapriv_op_cerrarsesion">Cerrar sesión</a></li>
+					</ul>
+					
+					<div class="clear"></div>
+
+				</div>
+
+			</div>
+
+			<div id="header_barra_inf">
+
+				<nav id="menu_cabecera_inferior" class="mostrar_escritorio">
+
+					<!-- MENU COMPRA ONLINE -->
+										<ul>
+
+						<li class="ico_cabecera_compraonline">
+							<a href="tiendaonline.php" title="COMPRA ONLINE" target="tol">
+							<figure>
+								<img src="vistas/images/ico_compraonline.png" alt="COMPRA ONLINE">
+								<figcaption>COMPRA&nbsp;ONLINE</figcaption>
+							</figure>
+							</a>	
+						</li>
+
+						<li>
+							<a href="https://www.online.bmsupermercados.es/bm/categoria/ofertas/c-99999#!Grid" title="OFERTAS" target="tol">
+							<figure>
+								<img src="vistas/images/ico_ofertas.png" alt="OFERTAS">
+								<figcaption>OFERTAS</figcaption>
+							</figure>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://www.online.bmsupermercados.es/bm/categoria/frescos/c-2812#!Grid" title="FRESCOS" target="tol">
+							<figure>
+								<img src="vistas/images/ico_frescos.png" alt="FRESCOS">
+								<figcaption>FRESCOS</figcaption>
+							</figure>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://www.online.bmsupermercados.es/bm/categoria/alimentacion/c-2811#!Grid" title="ALIMENTACIÓN" target="tol">
+							<figure>
+								<img src="vistas/images/ico_alimentacion.png" alt="ALIMENTACIÓN">
+								<figcaption>ALIMENTACI&Oacute;N</figcaption>
+							</figure>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://www.online.bmsupermercados.es/bm/categoria/bebidas/c-1690#!Grid" title="BEBIDAS" target="tol">
+							<figure>
+								<img src="vistas/images/ico_bebidas.png" alt="BEBIDAS">
+								<figcaption>BEBIDAS</figcaption>
+							</figure>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://www.online.bmsupermercados.es/bm/categoria/cuidado-del-hogar/c-2813#!Grid" title="CUIDADO DEL HOGAR" target="tol">
+							<figure>
+								<img src="vistas/images/ico_dieteticos.png" alt="CUIDADO DEL HOGAR">
+								<figcaption>CUIDADO DEL HOGAR</figcaption>
+							</figure>
+							</a>
+						</li>
+
+						<li>
+							<a href="https://www.online.bmsupermercados.es/bm/categoria/bebe/c-2297#!Grid" title="BEBÉ" target="tol">
+							<figure>
+								<img src="vistas/images/ico_congelados.png" alt="BEBÉ">
+								<figcaption>BEBÉ</figcaption>
+							</figure>
+							</a>
+						</li>
+
+					</ul>
+										
+					
+				</nav>
+
+			</div>
+
+			<div id="fondo_oscurecido" title="OCULTAR MEN&Uacute;"></div>
+
+			<div id="fondo_oscurecido_2" title="OCULTAR VENTANA"></div>
+				
+			<div id="fondo_claro">
+				<img src="vistas/images/CARGA-ANIM.gif" alt="BM SUPERMERCADOS" title="BM SUPERMERCADOS">
+			</div>	
+
+			<!-- MENU PRINCIPAL/SUBMENUS -->
+			<div id="barra_navegador">	
+			<nav id="navegador" class="no_mostrar_menu">
+
+				<a id="aindice"></a>
+
+				<div id="titu_menu">
+
+										<ul id="idiomas">
+						<li><a href="saldo-tarjeta.htm" lang="es"><abbr title="Español" class="activo">ES</abbr></a></li>
+						<li><a href="txartelan-metatutakoa.htm" lang="eu"><abbr title="Euskara" >EU</abbr></a></li>
+					</ul>
+
+					<a href="javascript:;" title="OCULTAR MEN&Uacute;">
+					<div class="boton_desplegable_icono">
+						<span class="icono_raya"></span>
+						<span class="icono_raya"></span>
+						<!--<span class="icono_raya"></span>-->
+					</div>
+					</a>
+
+					<!--<span class="txt_mostrar">< ?= $txt_menu ?></span>-->
+
+				</div>
+
+				<!-- MENU PRINCIPAL -->
+				<ul id="menuprincipal" class="navegacion">
+
+										<!-- APARTADO -->
+					<li class="apartado_principal">
+
+						<a href="#" target="_self" title="Actualidad">
+							<span>Actualidad</span>
+						</a>
+
+												<!-- SUBMENU -->
+						<ul class="submenuprincipal">
+
+														<!-- SUBAPARTADO -->
+							<li class="subapartado_nivel_1">
+
+								<a href="noticias.htm" target="_self" title="Noticias">
+									<span>Noticias</span>
+								</a>
+
+							</li><!-- FIN SUBAPARTADO -->
+														<!-- SUBAPARTADO -->
+							<li class="subapartado_nivel_1">
+
+								<a href="recetas.htm" target="_self" title="Recetas">
+									<span>Recetas</span>
+								</a>
+
+							</li><!-- FIN SUBAPARTADO -->
+														<!-- SUBAPARTADO -->
+							<li class="subapartado_nivel_1">
+
+								<a href="elige-cuidarte.htm" target="_self" title="Elige cuidarte">
+									<span>Elige cuidarte</span>
+								</a>
+
+							</li><!-- FIN SUBAPARTADO -->
+														<!-- SUBAPARTADO -->
+							<li class="subapartado_nivel_1">
+
+								<a href="promociones.htm" target="_self" title="Promociones">
+									<span>Promociones</span>
+								</a>
+
+							</li><!-- FIN SUBAPARTADO -->
+														<!-- SUBAPARTADO -->
+							<li class="subapartado_nivel_1">
+
+								<a href="concursos.htm" target="_self" title="Concursos">
+									<span>Concursos</span>
+								</a>
+
+							</li><!-- FIN SUBAPARTADO -->
+							
+						</ul><!-- FIN SUBMENU -->
+						
+					</li><!-- FIN APARTADO -->
+										<!-- APARTADO -->
+					<li class="apartado_principal">
+
+						<a href="#" target="_self" title="Tarjeta BM">
+							<span>Tarjeta BM</span>
+						</a>
+
+												<!-- SUBMENU -->
+						<ul class="submenuprincipal">
+
+														<!-- SUBAPARTADO -->
+							<li class="subapartado_nivel_1">
+
+								<a href="tarjeta-bm.htm" target="_self" title="Tu Tarjeta BM">
+									<span>Tu Tarjeta BM</span>
+								</a>
+
+							</li><!-- FIN SUBAPARTADO -->
+														<!-- SUBAPARTADO -->
+							<li class="subapartado_nivel_1">
+
+								<a href="tarjeta-bm-familia.htm" target="_self" title="Tarjeta BM Familia">
+									<span>Tarjeta BM Familia</span>
+								</a>
+
+							</li><!-- FIN SUBAPARTADO -->
+														<!-- SUBAPARTADO -->
+							<li class="subapartado_nivel_1">
+
+								<a href="consigue-tu-tarjeta.htm" target="_self" title="Consigue tu Tarjeta BM">
+									<span>Consigue tu Tarjeta BM</span>
+								</a>
+
+							</li><!-- FIN SUBAPARTADO -->
+														<!-- SUBAPARTADO -->
+							<li class="subapartado_nivel_1">
+
+								<a href="contacto.htm" target="_self" title="Contacto">
+									<span>Contacto</span>
+								</a>
+
+							</li><!-- FIN SUBAPARTADO -->
+							
+						</ul><!-- FIN SUBMENU -->
+						
+					</li><!-- FIN APARTADO -->
+										<!-- APARTADO -->
+					<li class="apartado_principal">
+
+						<a href="ofertas.htm" target="_self" title="Ofertas">
+							<span>Ofertas</span>
+						</a>
+
+						
+					</li><!-- FIN APARTADO -->
+										<!-- APARTADO -->
+					<li class="apartado_principal">
+
+						<a href="#" target="_self" title="Tiendas">
+							<span>Tiendas</span>
+						</a>
+
+												<!-- SUBMENU -->
+						<ul class="submenuprincipal">
+
+														<!-- SUBAPARTADO -->
+							<li class="subapartado_nivel_1">
+
+								<a href="buscador-tiendas.htm" target="_self" title="Buscador">
+									<span>Buscador</span>
+								</a>
+
+							</li><!-- FIN SUBAPARTADO -->
+														<!-- SUBAPARTADO -->
+							<li class="subapartado_nivel_1">
+
+								<a href="franquicias-que-nos-diferencia.htm" target="_self" title="Franquicias">
+									<span>Franquicias</span>
+								</a>
+
+							</li><!-- FIN SUBAPARTADO -->
+														<!-- SUBAPARTADO -->
+							<li class="subapartado_nivel_1">
+
+								<a href="nuestras-sedes.htm" target="_self" title="Nuestras sedes">
+									<span>Nuestras sedes</span>
+								</a>
+
+							</li><!-- FIN SUBAPARTADO -->
+							
+						</ul><!-- FIN SUBMENU -->
+						
+					</li><!-- FIN APARTADO -->
+										<!-- APARTADO -->
+					<li class="apartado_principal">
+
+						<a href="nuestra-forma-de-ser.htm" target="_self" title="Nuestra forma de ser">
+							<span>Nuestra forma de ser</span>
+						</a>
+
+						
+					</li><!-- FIN APARTADO -->
+					
+					<!-- OPCIONES: RECETAS-ELIGE CUIDARTE-FRANQUICIAS -->
+					<li class="separador"></li>
+
+					<li class="apartado_principal">
+
+												<a href="recetas.htm" target="_self" title="RECETAS">
+							<span>RECETAS</span>
+						</a>
+
+					</li>
+
+					<li class="apartado_principal">
+
+												<a href="elige-cuidarte.htm" title="ELIGE CUIDARTE">
+							<span>ELIGE CUIDARTE</span>
+						</a>
+
+					</li>
+
+					<li class="apartado_principal">
+
+												<a href="franquicias-que-nos-diferencia.htm" target="_self" title="FRANQUICIAS">
+							<span>FRANQUICIAS</span>
+						</a>
+
+					</li>
+					<!-- FIN OPCIONES: RECETAS-ELIGE CUIDARTE-FRANQUICIAS -->
+
+					<!-- OPCIONES: COMPRA ONLINE-MI CUENTA-CONTACTO-FRANQUICIAS -->
+					<li class="separador"></li>
+
+					<li class="apartado_principal">
+
+												<a class="menu_compraonline" href="tienda-online.htm"  title="COMPRA ONLINE">
+							<span>COMPRA ONLINE</span>
+						</a>
+
+					</li>
+
+					<li id="menu_opcion_acceso" class="apartado_principal">
+
+						<a class="menu_micuenta" href="#" target="_self" title="MI CUENTA">
+							<span>MI CUENTA</span>
+						</a>
+
+					</li>
+
+										<li class="apartado_principal">
+
+						<a class="menu_contacto" href="contacto.htm" target="_self" title="CONTACTO">
+							<span>CONTACTO</span>
+						</a>
+
+					</li>
+
+										<li class="apartado_principal">
+
+						<a class="menu_appbm" href="tarjeta-bm.htm" target="_self" title="APP BM">
+							<span>APP BM</span>
+						</a>
+
+					</li>
+
+					<!-- FIN OPCIONES: COMPRA ONLINE-MI CUENTA-CONTACTO-FRANQUICIAS -->
+
+					<!-- OPCIONES: REDES SOCIALES -->
+					<li class="separador"></li>
+
+					<li class="apartado_principal">
+
+						<div id="menu_redessociales">
+
+							<a href="https://www.facebook.com/BMSupermercados" title="FACEBOOK" target="new">
+							<figure>
+								<img src="vistas/images/ico_facebook.png" alt="FACEBOOK">
+								<figcaption></figcaption>
+							</figure>
+							</a>
+
+							<a href="https://twitter.com/bmsupermercados" title="TWITTER" target="new">
+							<figure>
+								<img src="vistas/images/ico_twitter.png" alt="TWITTER">
+								<figcaption></figcaption>
+							</figure>
+							</a>
+
+							<a href="https://www.youtube.com/user/BMSupermercados" title="YOUTUBE" target="new">
+							<figure>
+								<img src="vistas/images/ico_youtube.png" alt="YOUTUBE">
+								<figcaption></figcaption>
+							</figure>
+							</a>
+
+							<a href="https://instagram.com/bmsupermercados/" title="INSTAGRAM" target="new">
+							<figure>
+								<img src="vistas/images/ico_instagram.png" alt="INSTAGRAM">
+								<figcaption></figcaption>
+							</figure>
+							</a>
+
+						</div>
+
+					</li>
+
+				</ul><!-- FIN MENU PRINCIPAL -->
+
+			</nav>
+			</div><!-- FIN MENU PRINCIPAL/SUBMENUS -->
+
+		</div>
+
+	</header>
+
+	<main>
+
+		<div class="row">
+
+			<div class="col-xl-9 col-lg-12 col-md-12 col-12 sin_padding">
+
+				<section id="contenido">
+
+					<a id="acontenido"></a>
+
+					<h2 class="titu_formularios">Saldo en tarjeta</h2>
+
+					
+										<div class="contenido_capa">
+
+						<h4 class="titu_contenido">
+							<!--<span class="txt_numero_contenido">1</span>-->
+							<span class="txt_titu_contenido">ACUMULADO Y BONOS</span>
+						</h4>
+
+						<div class="row">
+
+							<p class="txt_grande">Acumulado:  €</p>
+
+							<p class="txt_grande">Bonos disponibles: 0</p>
+
+							<p>Bonos consumidos: 0</p>
+
+							<p>Bonos conseguidos: 0</p>
+
+						</div>
+
+					</div>
+
+					<div class="contenido_capa cont_fondo_gris">
+
+						<h4 class="titu_contenido">
+							<!--<span class="txt_numero_contenido">2</span>-->
+							<span class="txt_titu_contenido">BÚSQUEDA POR FECHAS</span>
+						</h4>
+
+						<!-- FORMULARIO -->
+
+						<a name="aformulario" id="aformulario"></a>
+						
+												<form name="form_movimientos" id="form_movimientos" method="post" enctype="multipart/form-data" action="saldo-tarjeta.htm">	
+													
+						<fieldset>
+
+							<div class="linea_separacion"></div>
+
+							<div class="row">
+
+								<!-- FECHA INI -->
+								<div class="form-group col-xl-6 col-lg-6 col-md-12 col-12">
+
+									<span class="text_fecha">Inicial:</span>
+
+									<!-- DIA INI -->
+									<label for="diaini"><span class="invisible">D&iacute;a inicio</span>
+									<select name="diaini" id="diaini" title="D&iacute;a inicio">
+										
+																					<option value="01"  >01</option>
+																					<option value="02"  >02</option>
+																					<option value="03"  >03</option>
+																					<option value="04"  >04</option>
+																					<option value="05"  >05</option>
+																					<option value="06"  >06</option>
+																					<option value="07"  >07</option>
+																					<option value="08"  >08</option>
+																					<option value="09"  >09</option>
+																					<option value="10"  >10</option>
+																					<option value="11"  >11</option>
+																					<option value="12"  >12</option>
+																					<option value="13"  >13</option>
+																					<option value="14"  >14</option>
+																					<option value="15"  >15</option>
+																					<option value="16"  >16</option>
+																					<option value="17"  >17</option>
+																					<option value="18"  >18</option>
+																					<option value="19"  >19</option>
+																					<option value="20"  >20</option>
+																					<option value="21"  >21</option>
+																					<option value="22"  >22</option>
+																					<option value="23"  >23</option>
+																					<option value="24"  >24</option>
+																					<option value="25"  >25</option>
+																					<option value="26" selected="selected" >26</option>
+																					<option value="27"  >27</option>
+																					<option value="28"  >28</option>
+																					<option value="29"  >29</option>
+																					<option value="30"  >30</option>
+																					<option value="31"  >31</option>
+																				
+									</select>
+									</label>
+
+									<span class="separacion_fechas">/</span>
+
+									<!-- MES INI -->
+									<label for="mesini"><span class="invisible">Mes inicio</span>
+									<select name="mesini" id="mesini" title="Mes inicio">
+																					<option value="01"  selected="selected">ENE</option>
+																					<option value="02"  >FEB</option>
+																					<option value="03"  >MAR</option>
+																					<option value="04"  >ABR</option>
+																					<option value="05"  >MAY</option>
+																					<option value="06"  >JUN</option>
+																					<option value="07"  >JUL</option>
+																					<option value="08"  >AGO</option>
+																					<option value="09"  >SEP</option>
+																					<option value="10"  >OCT</option>
+																					<option value="11"  >NOV</option>
+																					<option value="12"  >DIC</option>
+																			</select>
+									</label>
+
+									<span class="separacion_fechas">/</span>
+
+									<!-- AÑO INI -->
+									<label for="anoini"><span class="invisible">A&ntilde;o inicio</span>
+									<select name="anoini" id="anoini" title="A&ntilde;o inicio">
+																					<option value="2010"  >2010</option>
+																					<option value="2011"  >2011</option>
+																					<option value="2012"  >2012</option>
+																					<option value="2013"  >2013</option>
+																					<option value="2014"  >2014</option>
+																					<option value="2015"  >2015</option>
+																					<option value="2016"  >2016</option>
+																					<option value="2017"  >2017</option>
+																					<option value="2018"  >2018</option>
+																					<option value="2019"  >2019</option>
+																					<option value="2020" selected="selected" >2020</option>
+																			</select>
+									</label>
+
+								</div>
+
+								<!-- FECHA FIN -->
+								<div class="form-group col-xl-6 col-lg-6 col-md-12 col-12">
+
+									<span class="text_fecha">Final:</span>
+
+									<!-- DIA FIN -->
+									<label for="diafin"><span class="invisible">D&iacute;a fin</span>
+									<select name="diafin" id="diafin" title="D&iacute;a fin">
+																					<option value="01"  >01</option>
+																					<option value="02"  >02</option>
+																					<option value="03"  >03</option>
+																					<option value="04"  >04</option>
+																					<option value="05"  >05</option>
+																					<option value="06"  >06</option>
+																					<option value="07"  >07</option>
+																					<option value="08"  >08</option>
+																					<option value="09"  >09</option>
+																					<option value="10"  >10</option>
+																					<option value="11"  >11</option>
+																					<option value="12"  >12</option>
+																					<option value="13"  >13</option>
+																					<option value="14"  >14</option>
+																					<option value="15"  >15</option>
+																					<option value="16"  >16</option>
+																					<option value="17"  >17</option>
+																					<option value="18"  >18</option>
+																					<option value="19"  >19</option>
+																					<option value="20"  >20</option>
+																					<option value="21"  >21</option>
+																					<option value="22"  >22</option>
+																					<option value="23"  >23</option>
+																					<option value="24"  >24</option>
+																					<option value="25"  >25</option>
+																					<option value="26" selected="selected" >26</option>
+																					<option value="27"  >27</option>
+																					<option value="28"  >28</option>
+																					<option value="29"  >29</option>
+																					<option value="30"  >30</option>
+																					<option value="31"  >31</option>
+																			</select>
+									</label>
+
+									<span class="separacion_fechas">/</span>
+
+									<!-- MES FIN -->
+									<label for="mesfin"><span class="invisible">Mes fin</span>
+									<select name="mesfin" id="mesfin" title="Mes fin">
+																					<option value="01"  >ENE</option>
+																					<option value="02"  selected="selected">FEB</option>
+																					<option value="03"  >MAR</option>
+																					<option value="04"  >ABR</option>
+																					<option value="05"  >MAY</option>
+																					<option value="06"  >JUN</option>
+																					<option value="07"  >JUL</option>
+																					<option value="08"  >AGO</option>
+																					<option value="09"  >SEP</option>
+																					<option value="10"  >OCT</option>
+																					<option value="11"  >NOV</option>
+																					<option value="12"  >DIC</option>
+																			</select>
+									</label>
+
+									<span class="separacion_fechas">/</span>
+
+									<!-- AÑO FIN -->
+									<label for="anofin"><span class="invisible">A&ntilde;o fin</span>
+									<select name="anofin" id="anofin" title="A&ntilde;o fin">
+																					<option value="2010"  >2010</option>
+																					<option value="2011"  >2011</option>
+																					<option value="2012"  >2012</option>
+																					<option value="2013"  >2013</option>
+																					<option value="2014"  >2014</option>
+																					<option value="2015"  >2015</option>
+																					<option value="2016"  >2016</option>
+																					<option value="2017"  >2017</option>
+																					<option value="2018"  >2018</option>
+																					<option value="2019"  >2019</option>
+																					<option value="2020" selected="selected" >2020</option>
+																			</select>
+									</label>
+
+								</div>
+
+							</div>
+
+							<!-- PROCESANDO... -->
+							<div class="row mensaje_procesando">
+
+								<span>Tu solicitud se está procesando, espera un momento por favor...</span>
+
+							</div>
+
+							<input name="lang" type="hidden" id="lang" value="1">
+
+							<!-- BOTON VER MOVIMIENTOS -->
+							<div class="formulario_capa centrado">
+
+								<label class="label_button" for="enviar_movimientos">
+								<button type="submit" class="boton_sin_picto" name="enviar_movimientos" id="enviar_movimientos" title=" VER MOVIMIENTOS ">
+									<span> VER MOVIMIENTOS </span>
+									<img src="vistas/images/boton_flechadcha_azul.png" alt=" VER MOVIMIENTOS ">
+								</button>
+								</label>
+
+							</div>
+
+						</form>
+						<!-- FIN FORMULARIO -->
+
+					</div>
+
+					<div class="contenido_capa">
+
+						<h4 class="titu_contenido">
+							<!--<span class="txt_numero_contenido">3</span>-->
+							<span class="txt_titu_contenido">MOVIMIENTOS</span>
+						</h3>
+
+						<div class="row">
+
+							<!--<p class="txt_grande">< ?= $movimientos_txt_movimientos ?>: < ?= $hay_movimientos ?></p>-->
+
+														<p>No hay datos</p>      
+							
+							
+						</div>
+
+					</div>
+											
+						
+
+				</section>
+
+			</div>
+
+			<aside class="col-xl-3 col-lg-12 col-md-12 col-12">
+
+				<a id="asubindice"></a>
+
+	            	
+								<div class="row">
+
+					<section id="ofertas" class="col-xl-12 col-lg-12 col-md-12 col-12">
+
+						<h2 class="mostrar_escritorio">
+
+							SELECCIÓN
+						</h2>
+
+						<h2 class="mostrar_movil">
+
+														PREPARAMOS LOS <strong>FRESCOS A TU GUSTO</strong> TAMBIÉN ONLINE
+							
+							
+						</h2>
+
+						<div class="row centrado">
+
+														
+																<article class="col-xl-12 col-lg-6 col-md-6 col-6 article_oferta">
+
+									<h3>OFERTA</h3>
+
+									<div class="article_oferta_fondo">
+
+										<figure>
+											<img src="https://www.bmsupermercados.es/fotografias/ofertas-tol/A72386_00_manzana_KANZI.jpg" alt="">
+											<figcaption></figcaption>
+										</figure>
+
+										<div class="oferta_texto">
+
+											<p>
+
+												<span class="oferta_nombre">Manzana</span>
+
+												<span class="oferta_descripcion">Kanzi</span>
+
+												<span class="oferta_preciogranel"></span>
+
+												<span class="oferta_precio">2,79 &euro;</span>
+
+											</p>
+
+											<a class="zona_boton" href="https://www.online.bmsupermercados.es/bm/producto/-manzana-kanzi-a-granel-200-g-aproxunidad/p-72386#DetalleProducto" title="COMPRAR" target="new">
+											<div class="boton boton_sin_picto">
+												<span>COMPRAR</span>
+												<figure>
+													<img src="vistas/images/boton_flechaabajo_azuloscuro.png" alt="COMPRAR">
+													<figcaption></figcaption>
+												</figure>
+											</div>
+											</a>
+
+										</div>
+
+									</div>
+
+								</article>
+								
+							
+																<article class="col-xl-12 col-lg-6 col-md-6 col-6 article_oferta">
+
+									<h3>OFERTA</h3>
+
+									<div class="article_oferta_fondo">
+
+										<figure>
+											<img src="https://www.bmsupermercados.es/fotografias/ofertas-tol/A30480_00_filete24_02_2020.jpg" alt="">
+											<figcaption></figcaption>
+										</figure>
+
+										<div class="oferta_texto">
+
+											<p>
+
+												<span class="oferta_nombre">Filete</span>
+
+												<span class="oferta_descripcion">Ternera A&ntilde;ojo</span>
+
+												<span class="oferta_preciogranel"></span>
+
+												<span class="oferta_precio">11,90 &euro;</span>
+
+											</p>
+
+											<a class="zona_boton" href="https://www.online.bmsupermercados.es/bm/producto/-filete-brazuelo-de-ternera-anojocorte-250g-aprox/p-30480#DetalleProducto" title="COMPRAR" target="new">
+											<div class="boton boton_sin_picto">
+												<span>COMPRAR</span>
+												<figure>
+													<img src="vistas/images/boton_flechaabajo_azuloscuro.png" alt="COMPRAR">
+													<figcaption></figcaption>
+												</figure>
+											</div>
+											</a>
+
+										</div>
+
+									</div>
+
+								</article>
+								
+														<a class="zona_boton boton_vermas" href="https://www.online.bmsupermercados.es/bm/categoria/ofertas/c-99999#!Grid" title="VER MÁS OFERTAS" target="_berria">
+							<div class="boton">
+								<span>VER MÁS OFERTAS</span>
+								<figure>
+									<img src="vistas/images/boton_mas_azuloscuro.png" alt="VER MÁS OFERTAS">
+									<figcaption></figcaption>
+								</figure>
+							</div>
+							</a>
+
+						</div>
+
+					</section>
+
+				</div>
+				
+								<div class="row">
+
+					<section id="banners_aside" class="col-xl-12 col-lg-12 col-md-12 col-12">
+
+						<h2>BANNERS</h2>
+
+												
+														<div id="aside_banner_1">
+
+								<a href="recetas.htm" title="Ver" target="_self"
+								onclick="dataLayer.push({
+                                     'event': 'banner columna',
+                                     'banner title':'Para todos los gustos'
+                            	});">
+
+									<img src="https://www.bmsupermercados.es/fotografias/banners/banner_recetas.jpg" alt="Para todos los gustos">
+
+									<div class="texto_destacados">
+
+																				<div class="destacado_txt_txiki">
+											<span style="color: #008aa6">Recetas</span>
+										</div>
+										
+																				<div style="background: #008aa6">
+											<span>Para todos</span>
+										</div>
+										
+																				<div style="background: #008aa6">
+											<span>los gustos</span>
+										</div>
+										
+																				<div class="destacado_txt_txiki">
+											<span style="color: #008aa6">Ver</span>
+										</div>
+										
+									</div>
+
+								</a>
+
+							</div>
+							
+						
+														<div id="aside_banner_2">
+
+								<a href="elige-cuidarte.htm" title="Ver" target="_self"
+								onclick="dataLayer.push({
+                                     'event': 'banner columna',
+                                     'banner title':'Consejos para una vida sana'
+                            	});">
+
+									<img src="https://www.bmsupermercados.es/fotografias/banners/banner_eligecuidarte_cas.jpg" alt="Consejos para una vida sana">
+
+									<div class="texto_destacados">
+
+																				<div class="destacado_txt_txiki">
+											<span style="color: #8bc41a">Elige cuidarte</span>
+										</div>
+										
+																				<div style="background: #8bc41a">
+											<span>Consejos para</span>
+										</div>
+										
+																				<div style="background: #8bc41a">
+											<span>una vida sana</span>
+										</div>
+										
+																				<div class="destacado_txt_txiki">
+											<span style="color: #8bc41a">Ver</span>
+										</div>
+										
+									</div>
+
+								</a>
+
+							</div>
+							
+						
+														<div id="aside_banner_3">
+
+								<a href="tarjeta-bm.htm" title="Descárgatela" target="_self"
+								onclick="dataLayer.push({
+                                     'event': 'banner columna',
+                                     'banner title':'No te pierdas nada'
+                            	});">
+
+									<img src="https://www.bmsupermercados.es/fotografias/banners/banner_descargarapp_1.jpg" alt="No te pierdas nada">
+
+									<div class="texto_destacados">
+
+																				<div class="destacado_txt_txiki">
+											<span style="color: #ee734a">App</span>
+										</div>
+										
+																				<div style="background: #ee734a">
+											<span>No te</span>
+										</div>
+										
+																				<div style="background: #ee734a">
+											<span>pierdas nada</span>
+										</div>
+										
+																				<div class="destacado_txt_txiki">
+											<span style="color: #ee734a">Descárgatela</span>
+										</div>
+										
+									</div>
+
+								</a>
+
+							</div>
+							
+					</section>
+
+				</div>
+				
+			</aside>
+		</div>
+
+	</main>
+
+		<footer>
+
+		<div class="row" id="footer_cont">
+
+			<section class="col-xl-12 col-lg-12 col-md-12 col-12 article_contenedor" id="logo_pie">
+
+				<h2 class="invisible">BM SUPERMERCADOS</h2>
+
+				<a href="inicio.htm" title="BM SUPERMERCADOS">
+				<figure>
+					<img src="vistas/images/logotipo_footer_bm.png" alt="BM SUPERMERCADOS" title="BM SUPERMERCADOS">
+					<figcaption></figcaption>
+				</figure>
+				</a>
+
+			</section>
+
+			<section class="col-xl-12 col-lg-12 col-md-12 col-12 article_contenedor" id="redes_pie">
+
+				<h3>REDES SOCIALES</h3>
+
+				<ul class="menu_footer_redes">
+
+					<li>
+						<a href="https://www.facebook.com/BMSupermercados" title="FACEBOOK" target="new">
+						<figure>
+							<img src="vistas/images/ico_facebook.png" alt="FACEBOOK">
+							<figcaption></figcaption>
+						</figure>
+						</a>
+					</li>
+
+					<li>
+						<a href="https://twitter.com/bmsupermercados" title="TWITTER" target="new">
+						<figure>
+							<img src="vistas/images/ico_twitter.png" alt="TWITTER">
+							<figcaption></figcaption>
+						</figure>
+						</a>
+					</li>
+
+					<li>
+						<a href="https://www.youtube.com/user/BMSupermercados" title="YOUTUBE" target="new">
+						<figure>
+							<img src="vistas/images/ico_youtube.png" alt="YOUTUBE">
+							<figcaption></figcaption>
+						</figure>
+						</a>
+					</li>
+
+					<li>
+						<a href="https://instagram.com/bmsupermercados/" title="INSTAGRAM" target="new">
+						<figure>
+							<img src="vistas/images/ico_instagram.png" alt="INSTAGRAM">
+							<figcaption></figcaption>
+						</figure>
+						</a>
+					</li>
+
+				</ul>
+
+			</section>
+
+			<section class="col-xl-12 col-lg-12 col-md-12 col-12 article_contenedor" id="footer_barra_inf">
+
+				<h2>ENLACES</h2>
+
+				<div class="row">
+
+					<nav id="footer_izda" class="col-xl-5 col-lg-12 col-md-12 col-12">
+						
+						<h3>OTROS ENLACES</h3>
+
+												<ul>
+							<li><a href="trabaja-con-nosotros.htm" target="_self" title="TRABAJA CON NOSOTROS">TRABAJA CON NOSOTROS</a></li>
+							<li><a href="franquicias-que-nos-diferencia.htm" target="_self" title="FRANQUICIAS BM SHOP">FRANQUICIAS BM SHOP</a></li>
+						</ul>
+
+					</nav>
+
+					<div id="footer_logo_uvesco" class="col-xl-2 col-lg-12 col-md-12 col-12">
+
+												<a href="https://www.uvesco.es/" title="GRUPO UVESCO" target="new">
+						<figure>
+							<img src="vistas/images/logotipo_footer_uvesco.png" alt="GRUPO UVESCO" title="GRUPO UVESCO">
+							<figcaption></figcaption>
+						</figure>
+						</a>
+
+					</div>
+
+					<nav id="footer_dcha" class="col-xl-5 col-lg-12 col-md-12 col-12">
+
+												<ul>
+							<li><a href="aviso-legal.htm" target="_self" title="Aviso legal">Aviso legal</a></li>
+							<li><a href="politica-de-privacidad.htm" target="_self" title="Política de privacidad">Política de privacidad</a></li>
+							<li><a href="politica-de-cookies.htm" target="_self" title="Política de cookies">Política de cookies</a></li>
+						</ul>
+
+					</nav>
+
+				</div>
+
+			</section>
+
+		</div>
+
+	</footer>
+</body>
+
+</html>

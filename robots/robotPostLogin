@@ -1,9 +1,9 @@
 ﻿<!doctype html>
 <html lang="es">
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="description" content="En BM Supermercados somos naturales, cercanos y de confianza… ¡como nuestros productos! La constate búsqueda de la excelencia, una atención personal y nuestra decidida apuesta por productos locales y frescos son algunas de las señas de identidad por las que nos eliges.">
 	<meta name="keywords" content="BM, SUPERMERCADO, NO ES LO MISMO, ERCORECA, NETTO, ALIMENTACIÓN, FRESCOS, BEBIDAS, TIENDA, FRUTERÍA, CARNICERÍA, CHARCUTERÍA, PESCADERÍA, AHORRO, MARCA LÍDER, BARATO, CALIDAD, BAZAR, TEXTIL">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=.6">
 
 	<title>BM SUPERMERCADOS</title>
@@ -19,6 +19,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap" rel="stylesheet">
 </head>
+
 <body class="no_mostrar_menu">
 
 	
@@ -26,8 +27,8 @@
 <script>
   dataLayer = [{
     'idioma': 'es',
-    'seccion': 'Zona privada',
-	'subseccion': 'Saldo en tarjeta'
+    'seccion': '',
+	'subseccion': ''
   }];
 </script>
  
@@ -88,8 +89,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							<a href="#" title="MI CUENTA" target="_self">
 							<figure>
 								<img src="vistas/images/ico_micuenta.png" alt="MI CUENTA">
-																<figcaption>MI CUENTA</figcaption>
-																							</figure>
+																								<figcaption><strong>JAVIER</strong></figcaption>
+															</figure>
 							</a>
 						</li>
 
@@ -227,9 +228,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 			<!-- VENTANA CONEXION TARJETA (MI CUENTA) -->
 			<div id="barra_conexion">
 
+								<div id="conecta_tarjeta" class="ventana_tarjeta visibilidad es_visible" style="display: block;">
 					
-					
-				<div id="conecta_tarjeta" class="ventana_tarjeta visibilidad">
 					
 
 					<div class="boton_cerrar_ventana" title="CERRAR">
@@ -237,49 +237,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<span class="icono_raya"></span>
 					</div>
 
-										<!-- FORMULARIO DE CONEXIÓN -->
-					<h4 class="titu_item">Accede a tu cuenta</h4>
-
-										<form name="conecta" id="conecta" method="post" action="login.htm">
-					<fieldset>
-
-						<legend class="invisible">Inserte usuario y clave y pulse "CONECTAR":</legend>
-
-						<label for="usuario"><span class="invisible">DNI o usuario</span>
-						<input id="usuario" name="usuario" type="text" title="DNI o usuario" placeholder="DNI o usuario">
-						</label>
-
-						<label for="clave"><span class="invisible">clave</span>
-						<input id="clave" name="clave" type="password" title="clave" placeholder="······">
-						</label>
-
-						<input name="konektatu" type="hidden" id="konektatu" value="1">
-						<input name="llave_form_login" type="hidden" id="llave_form_login" value="6ac9288a02af290887db2e5845359eea852f3348f3eb21f093ab9ac8c1b0e277">
-
-						<label class="label_button" for="conectar">
-						<button type="submit" name="conectar" id ="conectar" title=" CONECTAR ">
-							<span> CONECTAR </span>
-							<img src="vistas/images/boton_flechadcha_azul.png" alt=" CONECTAR ">
-						</button>
-						</label>
-
-					</fieldset>
-					</form>
-					<!-- FIN FORMULARIO DE CONEXIÓN -->
-
-					<div class="clear"></div>
-
-					<ul class="ul_tarjeta mensaje_procesando">
-						<li>Conectando...</li>
-					</ul>
+					
+										
+															<script>
+  						dataLayer.push({
+    					'event' : 'login acceso clientes',
+						'userID' : 'TllmMlh2eitybzNEV1FQZnovN0pkUT09Ojq6KSs8w1t2BNENfu1kOZIi'
+  						});
+					</script>
+										<h4 class="titu_item">JAVIER RODRIGO MINGO</h4>
 
 					<ul class="ul_tarjeta">
-						<li class="con_margintop_0_5em"><a href="olvide-mi-contrasena.htm" title="Olvidé mi contraseña">Olvidé mi contraseña</a></li>
-						<li><a href="registro.htm" title="Registro / Activar tu Tarjeta BM">Registro / Activar tu Tarjeta BM</a></li>
+						<li class="zonapriv_op_tarjetabm">Nº de tarjeta BM:<br />
+						<strong>1000060120754</strong></li>
+						<li class="con_margintop_1_5em"><a href="saldo-tarjeta.htm" class="zonapriv_op_saldotarjeta">Saldo en tarjeta</a></li>
+						<!-- <li><a href="ofertas-tarjeta.htm" class="zonapriv_op_ofertas">Ofertas</a></li> -->
+						<li><a href="datos-personales.htm" class="zonapriv_op_datospersonales">Datos personales</a></li>
+						<li><a href="cambiar-contrasena.htm" class="zonapriv_op_cambiarcontrasena">Cambiar contraseña</a></li>
+						<li class="con_margintop_1_5em"><a href="cerrar-sesion.htm" class="zonapriv_op_cerrarsesion">Cerrar sesión</a></li>
 					</ul>
-
-					  
-					
 					
 					<div class="clear"></div>
 
@@ -381,8 +357,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 				<div id="titu_menu">
 
 										<ul id="idiomas">
-						<li><a href="inicio.htm" lang="es"><abbr title="Español" class="activo">ES</abbr></a></li>
-						<li><a href="hasiera.htm" lang="eu"><abbr title="Euskara" >EU</abbr></a></li>
+						<li><a href="login.htm" lang="es"><abbr title="Español" class="activo">ES</abbr></a></li>
+						<li><a href="logina.htm" lang="eu"><abbr title="Euskara" >EU</abbr></a></li>
 					</ul>
 
 					<a href="javascript:;" title="OCULTAR MEN&Uacute;">
@@ -669,6 +645,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		</div>
 
 	</header>
+
 	<main class="main_anchuratotal">
 
 		<a id="acontenido"></a>
@@ -688,18 +665,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 						<div id="ini_destacado_1">
 
 							<a href="tiendaonline.php" title="VER OFERTAS" target="_berria"
-							onclick="dataLayer.push({'event': 'home slider','slide title':'También online'});">
+							onclick="dataLayer.push({'event': 'home slider','slide title':'BM Online'});">
 
-								<img src="https://www.bmsupermercados.es/fotografias/banners/destacado-web-feb-2020-cas.jpg" alt="También online">
+								<img src="https://www.bmsupermercados.es/fotografias/banners/WEB-acumula-febmar-2020-cas.jpg" alt="BM Online">
 
 								<div class="texto_destacados">
 
-																		<div class="destacado_txt_txiki">
-										<span style="color: #008aa6">FRESCOS A TU GUSTO</span>
-									</div>
 									
 																		<div style="background: #008aa6">
-										<span>También online</span>
+										<span>BM Online</span>
 									</div>
 									
 									
@@ -758,21 +732,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 					
 						<div id="ini_destacado_3">
 
-							<a href="danos-tu-opinion-y-llevate-un-vale-de-10euro.htm" title="Participa" target="_self"
-							onclick="dataLayer.push({'event': 'home slider','slide title':'Sorteo'});">
+							<a href="https://www.bmsupermercados.es/edamame-un-saludable-aperitivo-que-te-cautivara.htm" title="Leer" target="_self"
+							onclick="dataLayer.push({'event': 'home slider','slide title':'Edamame'});">
 
-								<img src="https://www.bmsupermercados.es/fotografias/banners/destacado-nueva-web-feb-2020-cas.jpg" alt="Sorteo">
+								<img src="https://www.bmsupermercados.es/fotografias/banners/bm-edamame.jpg" alt="Edamame">
 
 								<div class="texto_destacados">
 
+																		<div class="destacado_txt_txiki">
+										<span style="color: #ee734a">¿Lo conoces?</span>
+									</div>
 									
 																		<div style="background: #ee734a">
-										<span>Sorteo</span>
+										<span>Edamame</span>
 									</div>
 									
 									
 																		<div class="destacado_txt_txiki">
-										<span style="color: #ee734a">Participa</span>
+										<span style="color: #ee734a">Leer</span>
 									</div>
 									
 								</div>
@@ -967,7 +944,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 											<span class="oferta_preciogranel"></span>
 
-											<span class="oferta_precio">2,79 &euro; </span>
+											<span class="oferta_precio">2,79 &euro;</span>
 
 										</p>
 
@@ -1009,7 +986,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 											<span class="oferta_preciogranel"></span>
 
-											<span class="oferta_precio">11,90 &euro; </span>
+											<span class="oferta_precio">11,90 &euro;</span>
 
 										</p>
 

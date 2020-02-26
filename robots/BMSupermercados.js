@@ -6,7 +6,7 @@ global.config.browser.args = ['--disable-web-security']
 
 global.config.proxy.enabled = true;
 global.config.proxy.ip = 'luminatipm.yudonpay.com';
-global.config.proxy.port = 24002;
+global.config.proxy.port = 24004;
 // para UK 24003
 // para SP 24002
 // para MX 24005
@@ -18,9 +18,9 @@ global.config.anticaptchaKey = 'a68d59058912a27711f1ea51886dfb4c';
 require('../../robots/robots/src/config/db');
 const repository = require('../../robots/robots/src/repository/sp/bmsupermercados.repository');
 
-// repository.findOne = () => false;
-// repository.save = () => false;
-// repository.update = () => false;
+repository.findOne = () => false;
+repository.save = () => false;
+repository.update = () => false;
 
 const { getInfo, oneClick } = require('../../robots/robots/src/domain/sp/bmsupermercados.domain');
 

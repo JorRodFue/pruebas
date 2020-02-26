@@ -14,10 +14,11 @@ global.config.mongo.uri = 'mongodb://hulkusu:OzhUdFPgcLuf4XpM@bs657485-001.dbaas
 global.config.anticaptchaKey = 'a68d59058912a27711f1ea51886dfb4c';
 require('../../robots/robots/src/config/db');
 const repository = require('../../robots/robots/src/repository/sp/eltenedor.repository');
+global.config.mongo.uri = 'mongodb://127.0.0.1:27017/robots';
 
-// repository.findOne = () => false;
-// repository.save = () => false;
-// repository.update = () => false;
+repository.findOne = () => false;
+repository.save = () => false;
+repository.update = () => false;
 const { getInfo, oneClick } = require('../../robots/robots/src/domain/sp/eltenedor.domain');
 
 const reqID = "testing_desig";
