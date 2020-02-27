@@ -9,9 +9,9 @@ global.config.browser.devtools = true;
 // require('tls').DEFAULT_MIN_VERSION = 'TLSv1'; por si acaso
 
 
-global.config.proxy.enabled = true;
+global.config.proxy.enabled = !true;
 global.config.proxy.ip = 'luminatipm.yudonpay.com';
-global.config.proxy.port = 24005;
+global.config.proxy.port = 24003;
 
 /// para UK 24003
 // para SP 24002
@@ -36,7 +36,7 @@ const repositories = [
 
 const reqID = 'testing_desig';
 const merchants = ['SHEIN', 'VUELING', 'PERFUMESHOP', 'CHEDRAUI']
-let currentMerchant = 3
+let currentMerchant = 2
 const merchant = merchants[currentMerchant]
 
 
@@ -50,8 +50,8 @@ repository.update = () => false;
 
 // const { getInfo, oneClick } = require('../../robots/robots/src/domain/mx/shein.domain.js');
 //const { getInfo, oneClick } = require('../../robots/robots/src/domain/mx/vueling.domain.js');
-// const { getInfo, oneClick } = require('../../robots/robots/src/domain/uk/theperfumeshop.domain.js');
-const { getInfo, oneClick } = require('../../robots/robots/src/domain/mx/chedraui.domain.js');
+const { getInfo, oneClick } = require('../../robots/robots/src/domain/uk/theperfumeshop.domain.js');
+// const { getInfo, oneClick } = require('../../robots/robots/src/domain/mx/chedraui.domain.js');
 
 
 
@@ -71,8 +71,8 @@ const logins =
     },
 
     PERFUMESHOP:
-        { login: "rabin84807@hiwave.org", password: "M@4!it35LzNSMeZ" },
-    // { login: 'perfume@cnetmail.net', password: 'YuDonpay123' }
+        // { login: "rabin84807@hiwave.org", password: "M@4!it35LzNSMeZ" },
+        { login: 'perfume@cnetmail.net', password: 'YuDonpay123' },
 
     CHEDRAUI:
         { login: 'santiagoclub8@gmail.com', password: 'Olimpico88.' },
