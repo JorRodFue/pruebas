@@ -9,7 +9,7 @@ global.config.browser.devtools = true;
 // require('tls').DEFAULT_MIN_VERSION = 'TLSv1'; por si acaso
 
 
-global.config.proxy.enabled = !true;
+global.config.proxy.enabled = true;
 global.config.proxy.ip = 'luminatipm.yudonpay.com';
 global.config.proxy.port = 24003;
 
@@ -21,8 +21,9 @@ global.config.proxy.residentialPort = 24010;
 // global.config.mongo.uri = 'mongodb://hulkusu:OzhUdFPgcLuf4XpM@bs657485-001.dbaas.ovh.net:35190/apiusers';
 global.config.mongo.uri = 'mongodb://127.0.0.1:27017/robots';
 
+
 global.config.anticaptchaKey = 'a68d59058912a27711f1ea51886dfb4c';
-// require('../../robots/robots/src/config/db');
+require('../../robots/robots/src/config/db');
 
 const repositories = [
     require('../../robots/robots/src/repository/global/shein.repository'),
@@ -43,9 +44,9 @@ const merchant = merchants[currentMerchant]
 const repository = repositories[currentMerchant]
 
 
-repository.findOne = () => false;
-repository.save = () => false;
-repository.update = () => false;
+// repository.findOne = () => false;
+// repository.save = () => false;
+// repository.update = () => false;
 
 
 // const { getInfo, oneClick } = require('../../robots/robots/src/domain/mx/shein.domain.js');
