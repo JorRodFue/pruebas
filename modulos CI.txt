@@ -1,0 +1,18 @@
+npm i -g yud-ci eso instala todos los comandos necesarios para la integración continua
+
+  Dentro de yud-ci estarán los ficheros, que son scripts, available on bash
+
+create-branch
+follow-tags
+make-pr
+
+monorepo a Jarvis
+
+
+ver como logarse en npm y los tokens
+
+
+basicamente mover ficheros a otro sitio , permisos de ejecucion
+
+
+hay que tener usuarios del repo npm (verdaccio)

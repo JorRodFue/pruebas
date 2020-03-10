@@ -1,0 +1,105 @@
+const dateService = require('../../services/date.service');
+const Repository = require('../../repository/uk/costa.repository');
+const log = require('../../config/logger');
+const createBrowser = require('../../services/browser.service');
+const { costa } = require('../../config/uk/merchant.config');
+const authService = require('../../services/auth.service');
+const RobotError = require('../../services/robot.errors');
+const { syncError } = require('../../controller/responses/merchant.responses');
+const balanceModel = require('../models/balanceModel');
+const cardModel = require('../models/cardModel');
+const memberModel = require('../models/memberModel');
+
+
+global.config.browser.headless = !true; // true, no mostrar la pantalla
+
+const {
+
+  updateTime,
+  loginUrl,
+} = costa;
+
+const wait = { veryLong: 5000 };
+
+const clubCosta = {
+  name: 'Costa Coffee Club',
+  currency: 'Puntos',
+};
+
+const selectors = {
+  loginForm: {
+    login: '#longEmail',
+    password: '#oldPassword',
+    loginOk: '#gatsby-focus-wrapper > main > div.accountHeader__StyledAccountHeader-sc-1xh1ysd-0.gLzBED',
+  },
+  userInfo: {
+    points: '#gatsby-focus-wrapper > main > div.accountHeader__StyledAccountHeader-sc-1xh1ysd-0.gLzBED > div.accountHeader__Mask-sc-1xh1ysd-2.dmMqZW > div.text > div.pointsLabel > div > h1',
+    name: '#gatsby-focus-wrapper > main > div.accountHeader__StyledAccountHeader-sc-1xh1ysd-0.gLzBED > div.accountHeader__Header-sc-1xh1ysd-1.ewEHRj > h1 > span',
+    surname: '#surname',
+  },
+};
+
+async function updateUser(user, obtainedInfo, newPassword) {
+  const savedUser = Object.assign({}, user);
+  if (!await authService.isValidPassword(newPassword, user.password)) {
+    savedUser.password = await authService.hashPassword(newPassword);
+  }
+  const card = obtainedInfo.card || user.card;
+  return Repository.update({ ...savedUser, ...obtainedInfo, card });
+}
+
+const createResponse = (obtainedInfo, reqID) => ({
+  members: [memberModel({ fullName: obtainedInfo.name, id: reqID })],
+  cards: [cardModel({ number: obtainedInfo.card || '', type: clubCosta.name })],
+  balances: [balanceModel({ amount: obtainedInfo.points, description: clubCosta.currency })],
+});
+
+module.exports = {
+  getInfo: async (login, password, reqID, merchant) => {
+    const browser = createBrowser(reqID, merchant, 'getAll');
+    try {
+      return Repository.findOne(login)
+        .then(async (user) => {
+          if (user && !dateService.isOutdated(user.updatedAt, updateTime)
+            && await authService.isValidPassword(password, user.password)) {
+            log.debug(`${reqID} ${merchant} SYNC used cache data`);
+            return createResponse(user, reqID);
+          }
+          const page = await browser.createPage();
+          await browser.disableStyles();
+          await page.goto(loginUrl, { waitUntil: 'networkidle2' });
+          await browser.waitAndType(selectors.loginForm.login, login);
+          await browser.waitAndType(selectors.loginForm.password, password);
+          await page.keyboard.press('Enter');
+          await page.waitFor(wait.veryLong);
+          const loginOk = await browser.getElementExists(selectors.loginForm.loginOk);
+          if (!loginOk) {
+            // throw new RobotError(syncError.common);
+          }
+          const obtainedInfo = await Promise.all([
+            browser.findElement(selectors.userInfo.name),
+            browser.findElement(selectors.userInfo.surname),
+            browser.findElement(selectors.userInfo.points),
+          ])
+            .then(([name, surname, points]) => ({
+              name: name + surname, points: parseInt(points.split(' ')[0], 10),
+            }));
+          return ((user)
+            ? updateUser(user, obtainedInfo, password)
+            : Repository.save({
+              ...obtainedInfo,
+              login,
+              password: await authService.hashPassword(password),
+              typeCard: clubCosta.name,
+            }))
+            .then(() => {
+              browser.close();
+              return createResponse(obtainedInfo, reqID);
+            });
+        });
+    } catch (error) {
+      browser.manageError(error);
+      throw error;
+    }
+  },
+};

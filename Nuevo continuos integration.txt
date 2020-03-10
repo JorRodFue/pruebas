@@ -1,0 +1,44 @@
+
+
+
+
+entramos a pre , ya no hay que pasar por local como antes
+
+vemos la ultima tag en develop commits 
+
+git log remotename/branchname o git ls-remote --tag
+
+
+bajamos la ultima tag 
+git checkout tags/nombretag
+
+
+
+si hay morralla , se borra
+
+
+
+mirar que el package coincida con la tag
+
+grep version  package.json 
+
+git checkout develop
+git checkout tags/ms-robot@tag_number
+
+cd robots npm i
+history, copiar pm2 start........
+
+Pipelines , echale un ojo a bitbucket-pipelines.xml
+bitbucket todo funciona dockerizado ---> usamos imagenes
+
+
+custom para lanzar release a mano
+
+
+
+
+bin ---> lo que pongas aqui se ejecuta
+
+
+process.arg es lo que entra por linea de comandos
+process.env es lo que entra al tirar por npm run

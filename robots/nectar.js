@@ -4,7 +4,7 @@ global.config.browser.headless = !true; //true, no mostrar la pantalla
 global.config.browser.devtools = true;
 global.config.browser.args = ['--disable-web-security']
 
-global.config.proxy.enabled = true;
+// global.config.proxy.enabled = true;
 global.config.proxy.ip = 'luminatipm.yudonpay.com';
 global.config.proxy.port = 24003;
 //para UK 24003
@@ -18,22 +18,20 @@ global.config.mongo.uri = 'mongodb://127.0.0.1:27017/robots';
 
 global.config.anticaptchaKey = 'a68d59058912a27711f1ea51886dfb4c';
 require('../../robots/robots/src/config/db');
-const repository = require('../../robots/robots/src/repository/sp/shellclubsmart.repository');
+const repository = require('../../robots/robots/src/repository/uk/nectar.repository');
 
-// repository.findOne = () => false;
-// repository.save = () => false;
-// repository.update = () => false;
+// repository.findOne = () => Promise.resolve();
+// repository.save = () => Promise.resolve();
+// repository.update = () => Promise.resolve();
 
-const { getInfo, oneClick } = require('../../robots/robots/src/domain/sp/shellclubsmart.domain');
+const { getInfo, oneClick } = require('../../robots/robots/src/domain/uk/nectar.domain')
 
 const reqID = "testing_desig";
 
-const merchant = 'SHELLCLUBSMART';
+const merchant = 'NECTAR';
 
 const credentials = {
-  // login: '44010093F', password: 'Enmedio1973'
-  login: '51457895H', password: 'Yudonpay123'
-
+  login: '19212080036', password: 'Nectar1918'
 };
 const { login, password } = credentials;
 
