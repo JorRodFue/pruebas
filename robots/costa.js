@@ -20,9 +20,9 @@ global.config.anticaptchaKey = 'a68d59058912a27711f1ea51886dfb4c';
 require('../../robots/robots/src/config/db');
 const repository = require('../../robots/robots/src/repository/uk/costa.repository');
 
-// repository.findOne = () => Promise.resolve();
-// repository.save = () => Promise.resolve();
-// repository.update = () => Promise.resolve();
+repository.findOne = () => Promise.resolve();
+repository.save = () => Promise.resolve();
+repository.update = () => Promise.resolve();
 
 const { getInfo, oneClick } = require('../../robots/robots/src/domain/uk/costa.domain')
 

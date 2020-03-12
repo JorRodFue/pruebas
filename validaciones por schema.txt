@@ -1,0 +1,9 @@
+
+POST  robots/merchant 
+body {
+i // backend id
+s // merchant
+p // password
+ctry //country
+callback // url
+apikey //string muy largo
