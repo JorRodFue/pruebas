@@ -21,7 +21,7 @@
     "javascript-barcode-reader": "^0.6.8",
     "jimp": "0.6.4",
     "jsqr": "1.2.0",
-    "moment": "2.24.0",
+    "moment": "2.29.4",
     "mongoose": "5.7.12",
     "node-tesseract-ocr": "^1.0.0",
     "node-uuid": "1.4.8",
